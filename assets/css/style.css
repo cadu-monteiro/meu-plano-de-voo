@@ -89,6 +89,14 @@ body {
     margin-bottom: 10px;
 }
 
+img {
+    position: absolute;
+    z-index: -1;
+    width: 850px;
+    height: auto;
+    margin: 10px;
+}
+
 textarea {
     position: relative;
     left: 5px;
@@ -107,3 +115,93 @@ input {
     border: 1px solid rgb(141, 141, 141);
 }
 
+/*Cabeçalho (Plano de voo)*/
+.cabecalhoPlan {
+    position: absolute;
+}
+#titulo {
+    position: relative;
+    top: 45px;
+    left: 385px;
+    font-weight: bold;
+}
+#tituloEng {
+    position: relative;
+    top: 30px;
+    left: 405px;
+    font-size: 12px;
+}
+#prioridade {
+    position: relative;
+    top: 25px;
+    left: 70px;
+    font-size: 6px;
+}
+#prioridadeEng {
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-size: 6px;
+}
+#setaPrioridade {
+    position: relative;
+    top: 7px;
+    left: 60px;
+    font-size: 18px;
+}
+#ff {
+    position: relative;
+    top: -32px;
+    left: 105px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#setaFf {
+    position: relative;
+    top: -89px;
+    left: 138px;
+    font-size: 28px;
+    font-weight: bold;
+}
+#destinatario {
+    position: relative;
+    top: -158px;
+    left: 180px;
+    font-size: 6px;
+}
+
+/*Plano de voo*/
+.planoDeVoo {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 12.4px;
+}
+
+#identAero {
+    position: absolute;
+    top: 345px;
+    left: 269px;
+}
+
+#regrasVoo {
+    position: absolute;
+    top: 345px;
+    left: 581px;
+}
+
+#tipoVoo {
+    position: absolute;
+    top: 345px;
+    left: 736px;
+}
+
+#numero {
+    position: absolute;
+    top: 386px;
+    left: 72px;
+}
+
+#tipoAero {
+    position: absolute;
+    top: 386px;
+    left: 226px;
+}
