@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 192, 215);
+    height: 200vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barraSuperior {
+    background-color: rgb(4, 40, 120);
+    color: white;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.boxReferencia {
+    position: absolute;
+    top: 95px;
+    background-color: white;
+    width: 485px;
+    height: 300px;
+    border-radius: 8px;
+}
+#abaColaInfoPlan {
+    position: relative;
+    margin: 0;
+    background-color: rgb(4, 40, 120);
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 465px;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+
+.aba {
+    position: absolute;
+    top: 0px;
+    width: 486.5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+    background-color: rgb(4, 40, 120);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+}
+.aba:hover {
+    background-color: white;
+    border: 2px solid rgb(4, 40, 120);
+    color: rgb(4, 40, 120);
+}
+
+.coluna {
+    display: none;
+}
+#idColuna {
+    background-color: white;
+    padding: 17.1px;
+    margin: 0;
+    border-radius: 8px;
+    border-bottom-right-radius: 0;
+}
+.coluna2 {
+    display: none;
+}
+#idColuna2 {
+    background-color: white;
+    padding: 17.2px;
+    margin: 0;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+}
+
+.boxDados {
+    position: absolute;
+    top: 395px;
+    padding-top: 35px;
+    height: 750px;
+    display: flex;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.colunaDireita {
+    position: absolute;
+    top: 0px;
+    right: 2%;
+    width: 485px;
+    min-width: max-content;
+}
+.colunaEsquerda {
+    margin-left: 20px;
+}
+
+img {
+    position: absolute;
+    top: 86px;
+    z-index: -1;
+    width: 850px;
+    height: auto;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    
+}
+
+textarea#caixaTexto {
+    position: relative;
+    left: 5px;
+    margin: 10px;
+    margin-top: 30px;
+    height: 200px;
+    width: 440px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(141, 141, 141);
+    resize: none;
+}
+input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+/*Plano de voo*/
+.planoDeVoo {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 12.4px;
+    font-weight: bold;
+}
+
+#identAero {
+    position: absolute;
+    top: 395px;
+    left: 285px;
+}
+
+#regrasVoo {
+    position: absolute;
+    top: 395px;
+    left: 601px;
+}
+
+#tipoVoo {
+    position: absolute;
+    top: 395px;
+    left: 759px;
+}
+
+#numero {
+    position: absolute;
+    top: 441px;
+    left: 81px;
+}
+
+#tipoAero {
+    position: absolute;
+    top: 441px;
+    left: 240px;
+}
+#catEstTurb {
+    position: absolute;
+    top: 441px;
+    left: 511px;
+}
+#equipamento {
+    position: absolute;
+    top: 447px;
+    left: 646px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#aerodroPart {
+    position: absolute;
+    top: 486px;
+    left: 149px;
+}
+#hora {
+    position: absolute;
+    top: 486px;
+    left: 353px
+}
+#veloCruz {
+    position: absolute;
+    top: 534px;
+    left: 80px;
+}
+#nivel {
+    position: absolute;
+    top: 534px;
+    left: 218px;
+}
+#rota {
+    position: absolute;
+    top: 530px;
+    left: 51px;
+    resize: none;
+    height: 153px;
+    width: 796px;
+    background: none;
+    border:none;
+    line-height: 1.45;
+    text-indent: 300px;
+    font-weight: bold;
+    font-size: 15.5px;
+    padding-left: 8px;
+    letter-spacing: 1px;
+}
+#aerodroDest {
+    position: absolute;
+    top: 706px;
+    left: 148px;
+}
+#totalEtt {
+    position: absolute;
+    top: 707px;
+    left: 352px;
+}
+#aerodroAltn {
+    position: absolute;
+    top: 707px;
+    left: 533px;
+}
+#aerodroAltn2 {
+    position: absolute;
+    top: 707px;
+    left: 691px;
+}
+#OutrosDados {
+    position: absolute;
+    top: 748px;
+    left: 51px;
+    resize: none;
+    height: 44px;
+    width: 794px;
+    background: none;
+    border:none;
+    line-height: 1.45;
+    text-indent: 30px;
+    font-weight: bold;
+    font-size: 15.5px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
