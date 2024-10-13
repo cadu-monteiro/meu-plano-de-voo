@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Voo</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="barraSuperior">
+        <h2>Preenchimento do Plano de Voo</h2>
+    </div>
+    <div class="planoDeVoo">
+        <p id="identAero"></p>
+        <p id="regrasVoo"></p>
+        <p id="tipoVoo"></p>
+        <p id="numero"></p>
+        <p id="tipoAero"></p>
+        <p id="catEstTurb"></p>
+        <p id="equipamento"></p>
+        <p id="aerodroPart"></p>
+        <p id="hora"></p>
+        <p id="veloCruz"></p>
+        <p id="nivel"></p>
+        <p id="rota"></p>
+        <p id="aerodroDest"></p>
+        <p id="totalEtt"></p>
+        <p id="aerodroAltn"></p>
+        <p id="aerodroAltn2"></p>
+        <p id="OutrosDados"></p>
+    </div>
+
+    <div class="boxReferencia">
+        <p id="abaColaInfoPlan">Cole as informações do Plano aqui</p>
+        <textarea name="caixaTexto" id="caixaTexto"></textarea>
+    </div>
+
+    <div id="idBoxDados" class="boxDados">
+        <button class="aba" onclick="toggleMenu()">✎ Preenchimento manual</button>
+        <div id="idColuna" class="coluna">
+            <p>(7) Identificação da Aeronave</p>
+                <input type="text" id="identAeroRef">
+            <p>Tipo de Voo</p>
+                <input type="text" id="tipoVooRef">
+            <p>Tipo de Aeronave</p>
+                <input type="text" id="tipoAeroRef">
+            <p>(10) Equipamento</p>
+                <input type="text" id="equipamentoRef">
+            <p>Hora</p>
+                <input type="text" id="horaRef">
+            <p>Nível</p>
+                <input type="text" id="nivelRef">
+            <p>Aeródromo de destino</p>
+                <input type="text" id="aerodroDestRef">
+            <p>Aeródromo ALTN</p>
+                <input type="text" id="aerodroAltnRef">
+            <p>Outros dados</p>
+                <input type="text" id="OutrosDadosRef">
+        </div>
+        <div id="idColuna2" class="coluna2">
+            <p>(8) Regras de Voo</p>
+                <input type="text" id="regrasVooRef">
+            <p>(9) Número</p>
+                <input type="text" id="numeroRef">
+            <p>Cat. da esteira de turbulência</p>
+                <input type="text" id="catEstTurbRef">
+            <p>(13) Aeródromo de partida</p>
+                <input type="text" id="aerodroPartRef">
+            <p>(15) Velocidade de cruzeiro</p>
+                <input type="text" id="veloCruzRef">
+            <p>Rota</p>
+                <input type="text" id="rotaRef">
+            <p>Duração total prevista de voo</p>
+                <input type="text" id="totalEttRef">
+            <p>2º Aeródromo ALTN</p>
+                <input type="text" id="aerodroAltn2Ref">
+                
+        </div>
+    </div>
+    
+    
+    <script src="/assets/Js/script.js"></script>
+</body>
+</html>
