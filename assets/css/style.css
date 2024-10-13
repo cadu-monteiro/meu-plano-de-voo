@@ -99,7 +99,7 @@ textarea {
     padding: 5px;
     border-radius: 4px;
     border: 1px solid rgb(141, 141, 141);
-
+    resize: none;
 }
 input {
     padding: 5px;
