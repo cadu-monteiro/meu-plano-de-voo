@@ -36,10 +36,19 @@
                     <p id="OutrosDados"></p>
                     <textarea name="autonomia" id="autonomia" maxlength="4">0556</textarea>
                     <textarea name="pessoasABordo" id="pessoasABordo" maxlength="3">TBN</textarea>
-                
-                    <p id="uhf">U</p>
-                    <p id="vhf">V</p>
-                    <p id="elt">E</p>
+                    
+                    <p id="letraU">U</p>
+                    <button id="botaoU1" class="botaoNormal" onclick="mudarU()"></button>
+                    <button id="botaoU2" class="botaoRiscado" style="display: none;" onclick="mudarU()">/</button>
+                    
+                    <p id="letraV">V</p>
+                    <button id="botaoV1" onclick="mudarV()"></button>
+                    <button id="botaoV2" style="display: none;" onclick="mudarV()">/</button>
+                    
+                    <p id="letraE">E</p>
+                    <button id="botaoE1" onclick="mudarE()"></button>
+                    <button id="botaoE2" style="display: none;" onclick="mudarE()">/</button>
+
                     <p id="botes">S</p>
                     <p id="polar">P</p>
                     <p id="deserto">D</p>

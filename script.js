@@ -78,3 +78,41 @@ function enviar() {
         document.getElementById('OutrosDados').innerHTML = transf
 }
 
+function mudarU() {
+    const botao1 = document.getElementById('botaoU1')
+    const botao2 = document.getElementById('botaoU2')
+
+    if (botao1.style.display == 'none') {
+        botao1.style.display = 'block'
+        botao2.style.display = 'none'
+    }else {
+        botao1.style.display = 'none'
+        botao2.style.display = 'block'
+    }
+}
+function mudarV() {
+    const botao1 = document.getElementById('botaoV1')
+    const botao2 = document.getElementById('botaoV2')
+
+    if (botao1.style.display == 'none') {
+        botao1.style.display = 'block'
+        botao2.style.display = 'none'
+    }else {
+        botao1.style.display = 'none'
+        botao2.style.display = 'block'
+    }
+}
+function mudarE() {
+    const botao1 = document.getElementById('botaoE1')
+    const botao2 = document.getElementById('botaoE2')
+
+    if (botao1.style.display == 'none') {
+        botao1.style.display = 'block'
+        botao2.style.display = 'none'
+    }else {
+        botao1.style.display = 'none'
+        botao2.style.display = 'block'
+    }
+}
+
+
