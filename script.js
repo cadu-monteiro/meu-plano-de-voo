@@ -1,11 +1,17 @@
-function toggleMenu() {
-    const idColuna = document.getElementById('idColuna')
-        idColuna.classList.toggle('coluna')
-    
-    const idColuna2 = document.getElementById('idColuna2')
-        idColuna2.classList.toggle('coluna2')   
+function esconder() {
+    const coluna = document.querySelector('.colunaDireita')
+
+    if (coluna.style.display == 'none') {
+        coluna.style.display = 'block'
+        
+    } else {
+        coluna.style.display = 'none'
+    }
 }
 
+
+
+/*-----  TRANSFERÊNCIA DE DADOS  ----------------------------------*/
 function enviar() {
     var texto = document.getElementById("caixaTexto").value
     var linha = texto.split('\n')
@@ -22,10 +28,6 @@ function enviar() {
     var tipoVoo = linha[0]
         var transf = tipoVoo.substring(14,15)
         document.getElementById('tipoVoo').innerHTML = transf
-   
-    var tipoAero = linha[1]
-        var transf = tipoAero.substring(1,5)
-            document.getElementById('tipoAero').innerHTML = transf
 
     var catEstTurb = linha[1]
         var transf = catEstTurb.substring(6,7)
@@ -76,43 +78,56 @@ function enviar() {
         var menosUm = contar - 1
         var transf = OutrosDados.substring(1 , menosUm);
         document.getElementById('OutrosDados').innerHTML = transf
+
+
+/* -----  INFORMAÇÕES SUPLEMENTARES  ------------------------------------------*/
+    var tipoAero = linha[1]
+    var transf = tipoAero.substring(1,5)
+        document.getElementById('tipoAero').innerHTML = transf
+        if (["A20N","AT76","E195","E295","A339"].includes(transf)){
+            document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE"
+            document.getElementById('pessoasABordo').innerHTML = "TBN"
+
+        }if (["A20N"].includes(transf)){
+            mudarU()
+            mudarV()
+            mudarP()
+            mudarD()
+            mudarM()
+            mudarJ1()
+            mudarL()
+            mudarF()
+            mudarV2()
+            mudarU2()
+            mudarD2()
+            mudarC()
+        }else {
+                document.getElementById('corEMarcaDaAeronave').innerHTML = ""
+        }
+
 }
 
-function mudarU() {
-    const botao1 = document.getElementById('botaoU1')
-    const botao2 = document.getElementById('botaoU2')
+document.getElementById('inputImagem').addEventListener('change', function (){
+    carregarImagem()
+})
 
-    if (botao1.style.display == 'none') {
-        botao1.style.display = 'block'
-        botao2.style.display = 'none'
-    }else {
-        botao1.style.display = 'none'
-        botao2.style.display = 'block'
+function carregarImagem() {
+    const input = document.getElementById('inputImagem')
+    const img = document.getElementById('assinatura')
+
+    if (input.files && input.files[0]) {
+        const leitor = new FileReader()
+
+        leitor.onload = function(e) {
+            img.src = e.target.result;
+            img.style.display = "block"
+        }
+
+        leitor.readAsDataURL(input.files[0])
     }
 }
-function mudarV() {
-    const botao1 = document.getElementById('botaoV1')
-    const botao2 = document.getElementById('botaoV2')
 
-    if (botao1.style.display == 'none') {
-        botao1.style.display = 'block'
-        botao2.style.display = 'none'
-    }else {
-        botao1.style.display = 'none'
-        botao2.style.display = 'block'
-    }
+function limpar() {
+    location.reload()
+    
 }
-function mudarE() {
-    const botao1 = document.getElementById('botaoE1')
-    const botao2 = document.getElementById('botaoE2')
-
-    if (botao1.style.display == 'none') {
-        botao1.style.display = 'block'
-        botao2.style.display = 'none'
-    }else {
-        botao1.style.display = 'none'
-        botao2.style.display = 'block'
-    }
-}
-
-

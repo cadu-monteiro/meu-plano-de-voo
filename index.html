@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plano de Voo</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="botoes.css">
 </head>
 <body>
     <div class="barraSuperior">
-        <h2>Preenchimento do Plano de Voo</h2>
+        <h2>Sistema de preenchimento do Plano de Voo</h2>
     </div>
     
     
 
     <div class="colunaEsquerda">
         <div class="planoDeVoo">
-            <img src="plano-de-voo-img.jpg" alt="">
+            <img id="plano" src="plano-de-voo-img.jpg" alt="">
                 <div class="grupoParagrafosPlan">
                     <p id="identAero"></p>
                     <p id="regrasVoo"></p>
@@ -37,9 +38,12 @@
                     <textarea name="autonomia" id="autonomia" maxlength="4"></textarea>
                     <textarea name="pessoasABordo" id="pessoasABordo" maxlength="3"></textarea>
                     
+                
+
+
                     <p id="letraU">U</p>
-                    <button id="botaoU1" class="botaoNormal" onclick="mudarU()"></button>
-                    <button id="botaoU2" class="botaoRiscado" style="display: none;" onclick="mudarU()">/</button>
+                    <button id="botaoU1" onclick="mudarU()"></button>
+                    <button id="botaoU2" style="display: none;" onclick="mudarU()">/</button>
                     
                     <p id="letraV">V</p>
                     <button id="botaoV1" onclick="mudarV()"></button>
@@ -49,85 +53,101 @@
                     <button id="botaoE1" onclick="mudarE()"></button>
                     <button id="botaoE2" style="display: none;" onclick="mudarE()">/</button>
 
-                    <p id="botes">S</p>
-                    <p id="polar">P</p>
-                    <p id="deserto">D</p>
-                    <p id="maritmo">M</p>
-                    <p id="selva">J</p>
-                    <p id="coletes">J</p>
-                    <p id="luz">L</p>
-                    <p id="fluores">F</p>
-                    <p id="uhf2">U</p>
-                    <p id="vhf2">V</p>
-                    <p id="d">D</p>
+                    <p id="letraS">S</p>
+                    <button id="botaoS1" onclick="mudarS()"></button>
+                    <button id="botaoS2" style="display: none;" onclick="mudarS()">/</button>
+
+                    <p id="letraP">P</p>
+                    <button id="botaoP1" onclick="mudarP()"></button>
+                    <button id="botaoP2" style="display: none;" onclick="mudarP()">/</button>
+
+                    <p id="letraD">D</p>
+                    <button id="botaoD1" onclick="mudarD()"></button>
+                    <button id="botaoD2" style="display: none;" onclick="mudarD()">/</button>
+
+                    <p id="letraM">M</p>
+                    <button id="botaoM1" onclick="mudarM()"></button>
+                    <button id="botaoM2" style="display: none;" onclick="mudarM()">/</button>
+
+                    <p id="letraJ1">J</p>
+                    <button id="botaoJ1" onclick="mudarJ1()"></button>
+                    <button id="botaoJ2" style="display: none;" onclick="mudarJ1()">/</button>
+
+                    <p id="letraJ2">J</p>
+                    <button id="botaoJ01" onclick="mudarJ2()"></button>
+                    <button id="botaoJ02" style="display: none;" onclick="mudarJ2()">/</button>
+
+                    <p id="letraL">L</p>
+                    <button id="botaoL1" onclick="mudarL()"></button>
+                    <button id="botaoL2" style="display: none;" onclick="mudarL()">/</button>
+
+                    <p id="letraF">F</p>
+                    <button id="botaoF1" onclick="mudarF()"></button>
+                    <button id="botaoF2" style="display: none;" onclick="mudarF()">/</button>
+
+                    <p id="letraU2">U</p>
+                    <button id="botaoU01" onclick="mudarU2()"></button>
+                    <button id="botaoU02" style="display: none;" onclick="mudarU2()">/</button>
+
+                    <p id="letraV2">V</p>
+                    <button id="botaoV01" onclick="mudarV2()"></button>
+                    <button id="botaoV02" style="display: none;" onclick="mudarV2()">/</button>
+
+                    <p id="letraD2">D</p>
+                    <button id="botaoD01" onclick="mudarD2()"></button>
+                    <button id="botaoD02" style="display: none;" onclick="mudarD2()">/</button>
+
+                    <p id="letraC">C</p>
+                    <button id="botaoC1" onclick="mudarC()"></button>
+                    <button id="botaoC2" style="display: none;" onclick="mudarC()">/</button>
+
+                    <p id="letraN">N</p>
+                    <button id="botaoN1" onclick="mudarN()"></button>
+                    <button id="botaoN2" style="display: none;" onclick="mudarN()">/</button>
+
+
+
                     <textarea name="numero2" id="numero2" maxlength="2"></textarea>
+
                     <textarea name="capacidade" id="capacidade" maxlength="3"></textarea>
                     
-                    <p id="abrigo">C</p>
                     <textarea name="cor" id="cor" maxlength="16"></textarea>
+
                     <textarea name="corEMarcaDaAeronave" id="corEMarcaDaAeronave" maxlength="68"></textarea>
                     
-                    <p id="n">N</p>
                     <textarea name="observacoes" id="observacoes" maxlength="60"></textarea>
+
                     <textarea name="pilotoEmComando" id="pilotoEmComando" maxlength="35"></textarea>
-                    <textarea name="nome" id="nome" maxlength="24"></textarea>
+
+                    <textarea name="nome" id="nome" maxlength="24" placeholder="NOME/ (DDD)99999-9999" ></textarea>
+
                     <textarea name="codigoDac" id="codigoDac" maxlength="6"></textarea>
                     
                 </div>
         </div>
     </div>
 
-    <div class="colunaDireita">
+    <div class="colunaDireita" style="display: block;">
         <div class="boxReferencia">
             <p id="abaColaInfoPlan">Cole as informações do Plano aqui</p>
             <textarea name="caixaTexto" id="caixaTexto"></textarea>
             <button onclick="enviar()" id="enviar">Enviar</button>
-        </div>
-        <div id="" class="">
-            <button class="aba" onclick="toggleMenu()">✎ Preenchimento manual</button>
-            <div id="idColuna" class="coluna">
-                <p>(7) Identificação da Aeronave</p>
-                    <input type="text" id="identAeroRef">
-                <p>Tipo de Voo</p>
-                    <input type="text" id="tipoVooRef">
-                <p>Tipo de Aeronave</p>
-                    <input type="text" id="tipoAeroRef">
-                <p>(10) Equipamento</p>
-                    <input type="text" id="equipamentoRef">
-                <p>Hora</p>
-                    <input type="text" id="horaRef">
-                <p>Nível</p>
-                    <input type="text" id="nivelRef">
-                <p>Aeródromo de destino</p>
-                    <input type="text" id="aerodroDestRef">
-                <p>Aeródromo ALTN</p>
-                    <input type="text" id="aerodroAltnRef">
-                <p>Outros dados</p>
-                    <input type="text" id="OutrosDadosRef">
+            
+
+            <div class="boxAssinatura">
+                <p id="abaCarregarImagem">Assinatura</p>
+                <input type="file" id="inputImagem" accept="image/*">
             </div>
-            <div id="idColuna2" class="coluna2">
-                <p>(8) Regras de Voo</p>
-                    <input type="text" id="regrasVooRef">
-                <p>(9) Número</p>
-                    <input type="text" id="numeroRef">
-                <p>Cat. da esteira de turbulência</p>
-                    <input type="text" id="catEstTurbRef">
-                <p>(13) Aeródromo de partida</p>
-                    <input type="text" id="aerodroPartRef">
-                <p>(15) Velocidade de cruzeiro</p>
-                    <input type="text" id="veloCruzRef">
-                <p>Rota</p>
-                    <input type="text" id="rotaRef">
-                <p>Duração total prevista de voo</p>
-                    <input type="text" id="totalEttRef">
-                <p>2º Aeródromo ALTN</p>
-                    <input type="text" id="aerodroAltn2Ref">
-        
-            </div>
+            <button onclick="limpar()" id="limpar">Limpar tudo</button>
         </div>
+        <div id=""></div>
     </div>
+    <button onclick="esconder()" id="esconderCluna">☰</button>
+    
+    <img id="assinatura" style="display: none;" />
     
     
     <script src="script.js"></script>
+    <script src="botoes.js"></script>
 </body>
 </html>
