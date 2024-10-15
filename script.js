@@ -1,5 +1,5 @@
 function esconder() {
-    const coluna = document.querySelector('.colunaDireita')
+    const coluna = document.querySelector('#colunaDireita')
 
     if (coluna.style.display == 'none') {
         coluna.style.display = 'block'

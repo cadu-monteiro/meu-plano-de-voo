@@ -127,20 +127,24 @@
         </div>
     </div>
 
-    <div class="colunaDireita" style="display: block;">
-        <div class="boxReferencia">
-            <p id="abaColaInfoPlan">Cole as informações do Plano aqui</p>
-            <textarea name="caixaTexto" id="caixaTexto"></textarea>
-            <button onclick="enviar()" id="enviar">Enviar</button>
-            
+    <div id="colunaDireita" style="display: block;">
+        <div id="fundoColuna">
+            <div id="boxReferencia">
+                <p id="abaColaInfoPlan">Cole as informações do Plano aqui</p>
+                <div id="janelaInternaReferência">
+                    <textarea name="caixaTexto" id="caixaTexto"></textarea>
+                    <button onclick="enviar()" id="enviar">Enviar</button>
+                </div>
 
-            <div class="boxAssinatura">
-                <p id="abaCarregarImagem">Assinatura</p>
-                <input type="file" id="inputImagem" accept="image/*">
+
+                <div class="boxAssinatura">
+                    <p id="abaCarregarImagem">Assinatura</p>
+                    <input type="file" id="inputImagem" accept="image/*">
+                </div>
+                <button onclick="limpar()" id="limpar">Limpar tudo</button>
             </div>
-            <button onclick="limpar()" id="limpar">Limpar tudo</button>
         </div>
-        <div id=""></div>
+        
     </div>
     <button onclick="esconder()" id="esconderCluna">☰</button>
     

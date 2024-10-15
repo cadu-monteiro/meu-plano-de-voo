@@ -16,65 +16,72 @@ body {
 }
 
 #abaColaInfoPlan {
-    position: relative;
-    margin: 0;
-    background-color: rgb(4, 40, 120);
-    padding: 10px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    color: white;
-    width: 580px;
+    top: 0;
+    margin: 10px;
     text-align: left;
-    font-size: 16px;
+    color: white;
+    font-weight: bold;
 }
 
-.colunaDireita {
+#colunaDireita {
     position: absolute;
-    right: 40px;
-    width: 580px;
+    left: 50%;
+    transform: translate(-50%);
     min-width: max-content;
+    text-align: center;
+    
 }
 
-.boxReferencia {
+#boxReferencia {
     position: absolute;
-    margin-top: 95px;
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(4, 40, 120);
     height: 335px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.848);
+    width: 95%;
+    border-radius: 4px;
+    margin: 15px;
+    z-index: 1;
+}
+#janelaInternaReferência {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 98%;
+    height: 292px;
+    background-color: rgb(246, 246, 246);
+
 }
 
 #fundoColuna {
-    position: absolute;
+    position: relative;
     top: 80px;
     left: -15px;
     background-color: rgba(0, 0, 0, 0.445);
     height: 560px;
-    width: 550px;
+    width: 629px;
     z-index: -1;
-    border-radius: 8px;
 }
 
 textarea#caixaTexto {
     position: relative;
-    left: 5px;
+    left: 0;
     margin: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
     height: 200px;
-    width: 557px;
+    width: 90%;
     padding: 5px;
     border-radius: 4px;
     border: 1px solid rgb(141, 141, 141);
     resize: none;
     text-indent: 0px;
     text-align: left;
+    z-index: 1;
 }
 
 button#enviar {
     position: relative;
-    left: 487px;
+    left: 0;
     margin: 0;
-    margin-left: 15px;
+    margin-left: 0;
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -105,7 +112,6 @@ button#limpar {
     cursor: pointer;
     border: 2.1px solid rgb(4, 40, 120);
     z-index: 1;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.848);
 }
 button#limpar:hover {
     background-color: rgb(246, 246, 246);
@@ -136,7 +142,6 @@ button#limpar:hover {
     width: 580px;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.848);
 }
 
 input#inputImagem {
@@ -170,25 +175,30 @@ button#esconderCluna:hover {
 }
 
 img#plano {
-    position: absolute;
-    top: 86px;
+    position: relative;
+    top: 30px;
     z-index: -1;
     width: 850px;
     height: auto;
     margin: 10px;
     border-radius: 4px;
-    padding: 50px;
-    padding-left: 0;
-    padding-right: 0;
     background-color: white;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#grupoParagrafosPlan {
+    position: relative;
+
 }
 
 
 
 /*----  PLANO DE VOO  --------------------------------*/
 .colunaEsquerda {
-    margin-left: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
 }
 
 .planoDeVoo {
@@ -199,68 +209,68 @@ img#plano {
 
 #identAero {
     position: absolute;
-    top: 395px;
+    top: 310px;
     left: 285px;
 }
 
 #regrasVoo {
     position: absolute;
-    top: 395px;
+    top: 310px;
     left: 601px;
 }
 
 #tipoVoo {
     position: absolute;
-    top: 395px;
+    top: 310px;
     left: 759px;
 }
 
 #numero {
     position: absolute;
-    top: 441px;
+    top: 356px;
     left: 81px;
 }
 
 #tipoAero {
     position: absolute;
-    top: 441px;
+    top: 356px;
     left: 240px;
 }
 #catEstTurb {
     position: absolute;
-    top: 441px;
+    top: 356px;
     left: 511px;
 }
 #equipamento {
     position: absolute;
-    top: 447px;
+    top: 362px;
     left: 646px;
     font-size: 12px;
     letter-spacing: 1px;
 }
 #aerodroPart {
     position: absolute;
-    top: 486px;
+    top: 401px;
     left: 149px;
 }
 #hora {
     position: absolute;
-    top: 486px;
+    top: 401px;
     left: 353px
 }
 #veloCruz {
     position: absolute;
-    top: 534px;
+    top: 449px;
     left: 80px;
 }
 #nivel {
     position: absolute;
-    top: 534px;
+    top: 449px;
     left: 218px;
 }
 #rota {
     position: absolute;
-    top: 530px;
+    top: 445px;
     left: 51px;
     resize: none;
     height: 153px;
@@ -279,27 +289,27 @@ img#plano {
 }
 #aerodroDest {
     position: absolute;
-    top: 706px;
+    top: 621px;
     left: 148px;
 }
 #totalEtt {
     position: absolute;
-    top: 707px;
+    top: 622px;
     left: 352px;
 }
 #aerodroAltn {
     position: absolute;
-    top: 707px;
+    top: 622px;
     left: 533px;
 }
 #aerodroAltn2 {
     position: absolute;
-    top: 707px;
+    top: 622px;
     left: 691px;
 }
 #OutrosDados {
     position: absolute;
-    top: 748px;
+    top: 663px;
     left: 51px;
     resize: none;
     height: 115px;
@@ -321,7 +331,7 @@ img#plano {
 /*-----   INFORMAÇÕES SUPLEMENTARES   -------------------------*/
 #autonomia {
     position: absolute;
-    top: 945px;
+    top: 860px;
     left: 122px;
     resize: none;
     height: 19px;
@@ -339,7 +349,7 @@ img#plano {
 }
 #pessoasABordo {
     position: absolute;
-    top: 945px;
+    top: 860px;
     left: 322px;
     resize: none;
     height: 19px;
@@ -357,77 +367,77 @@ img#plano {
 }
 #uhf {
     position: absolute;
-    top: 933px;
+    top: 848px;
     left: 624px;
 }
 #vhf {
     position: absolute;
-    top: 933px;
+    top: 848px;
     left: 691px;
 }
 #elt {
     position: absolute;
-    top: 933px;
+    top: 848px;
     left: 759px;
 }
 #botes {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 126px;
 }
 #polar {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 193px;
 }
 #deserto {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 261.5px;
 }
 #maritmo {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 329px;
 }
 #selva {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 397px;
 }
 #coletes {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 488px;
 }
 #luz {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 556px;
 }
 #fluores {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 623.5px;
 }
 #uhf2 {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 691.5px;
 }
 #vhf2 {
     position: absolute;
-    top: 996px;
+    top: 911px;
     left: 759px;
 }
 #d {
     position: absolute;
-    top: 1058.3px;
+    top: 973,3px;
     left: 81px;
 }
 #numero2 {
     position: absolute;
-    top: 1073px;
+    top: 988px;
     left: 120px;
     resize: none;
     height: 17px;
@@ -445,7 +455,7 @@ img#plano {
 }
 #capacidade {
     position: absolute;
-    top: 1073px;
+    top: 988px;
     left: 187px;
     resize: none;
     height: 17px;
@@ -463,12 +473,12 @@ img#plano {
 }
 #abrigo {
     position: absolute;
-    top: 1059px;
+    top: 974px;
     left: 283.5px;
 }
 #cor {
     position: absolute;
-    top: 1073px;
+    top: 988px;
     left: 321px;
     resize: none;
     height: 17px;
@@ -486,7 +496,7 @@ img#plano {
 }
 #corEMarcaDaAeronave {
     position: absolute;
-    top: 1118px;
+    top: 1033px;
     left: 120px;
     letter-spacing: 1px;
     resize: none;
@@ -504,13 +514,13 @@ img#plano {
 }
 #n {
     position: absolute;
-    top: 1150.5px;
+    top: 1065,5px;
     left: 80.5px;
     letter-spacing: 1px;
 }
 #observacoes {
     position: absolute;
-    top: 1165px;
+    top: 1080px;
     left: 120px;
     letter-spacing: 1px;
     resize: none;
@@ -528,7 +538,7 @@ img#plano {
 }
 #pilotoEmComando {
     position: absolute;
-    top: 1210px;
+    top: 1125px;
     left: 120px;
     letter-spacing: 1px;
     resize: none;
@@ -546,7 +556,7 @@ img#plano {
 }
 #nome {
     position: absolute;
-    top: 1290px;
+    top: 1205px;
     left: 65px;
     letter-spacing: 1px;
     resize: none;
@@ -567,7 +577,7 @@ img#plano {
 }
 #codigoDac {
     position: absolute;
-    top: 1302px;
+    top: 1217px;
     left: 344px;
     resize: none;
     height: 17px;
@@ -587,7 +597,7 @@ img#plano {
 img#assinatura {
     position: absolute;
     padding: 0;
-    top: 1277px;
+    top: 1192px;
     left: 640px;
     transform: translate(-50%);
     z-index: 1;
