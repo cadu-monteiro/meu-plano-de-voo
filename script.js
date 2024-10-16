@@ -23,6 +23,34 @@ function fechar() {
 
 
 
+/*--- IMPORTAÇÃO DA ASSINATURA DIGITAL ----------------------------*/
+document.getElementById('inputImagem').addEventListener('change', function (){
+    carregarImagem()
+})
+
+function carregarImagem() {
+    const input = document.getElementById('inputImagem')
+    const img = document.getElementById('assinatura')
+
+    if (input.files && input.files[0]) {
+        const leitor = new FileReader()
+
+        leitor.onload = function(e) {
+            img.src = e.target.result;
+            img.style.display = "block"
+        }
+
+        leitor.readAsDataURL(input.files[0])
+    }
+}
+
+function limpar() {
+    location.reload()
+    
+}
+
+
+
 /*-----  TRANSFERÊNCIA DE DADOS  ----------------------------------*/
 function enviar() {
     var texto = document.getElementById("caixaTexto").value
@@ -98,9 +126,9 @@ function enviar() {
         document.getElementById('OutrosDados').innerHTML = transf
 
 
-/* -----  INFORMAÇÕES SUPLEMENTARES  ------------------------------------------*/
-    
 
+        
+/* -----  INFORMAÇÕES SUPLEMENTARES  ------------------------------------------*/
     var textoM = document.getElementById("textoMatricula").value.trim(); // Remove espaços em branco no início e no final
 
     if (textoM === "PR-YSQ") {
@@ -120,31 +148,19 @@ function enviar() {
         mudarC();
     } else {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "";
+        mudarU();
+        mudarV();
+        mudarP();
+        mudarD();
+        mudarM();
+        mudarJ1();
+        mudarL();
+        mudarF();
+        mudarV2();
+        mudarU2();
+        mudarD2();
+        mudarC();
     }
 
 }
 
-document.getElementById('inputImagem').addEventListener('change', function (){
-    carregarImagem()
-})
-
-function carregarImagem() {
-    const input = document.getElementById('inputImagem')
-    const img = document.getElementById('assinatura')
-
-    if (input.files && input.files[0]) {
-        const leitor = new FileReader()
-
-        leitor.onload = function(e) {
-            img.src = e.target.result;
-            img.style.display = "block"
-        }
-
-        leitor.readAsDataURL(input.files[0])
-    }
-}
-
-function limpar() {
-    location.reload()
-    
-}
