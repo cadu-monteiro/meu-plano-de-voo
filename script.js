@@ -1,4 +1,4 @@
-function esconder() {
+function menu() {
     const coluna = document.querySelector('#JanelaMenu')
 
     if (coluna.style.display == 'none') {
@@ -8,6 +8,9 @@ function esconder() {
     } else {
         coluna.style.display = 'none'
         
+    }
+    if (coluna.style.display = 'block') {
+        return
     }
 }
 function fechar() {
@@ -39,6 +42,10 @@ function enviar() {
     var tipoVoo = linha[0]
         var transf = tipoVoo.substring(14,15)
         document.getElementById('tipoVoo').innerHTML = transf
+
+    var tipoAero = linha[1]
+    var transf = tipoAero.substring(1,5)
+        document.getElementById('tipoAero').innerHTML = transf
 
     var catEstTurb = linha[1]
         var transf = catEstTurb.substring(6,7)
@@ -92,29 +99,29 @@ function enviar() {
 
 
 /* -----  INFORMAÇÕES SUPLEMENTARES  ------------------------------------------*/
-    var tipoAero = linha[1]
-    var transf = tipoAero.substring(1,5)
-        document.getElementById('tipoAero').innerHTML = transf
-        if (["A20N","AT76","E195","E295","A339"].includes(transf)){
-            document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE"
-            document.getElementById('pessoasABordo').innerHTML = "TBN"
+    
 
-        }if (["A20N"].includes(transf)){
-            mudarU()
-            mudarV()
-            mudarP()
-            mudarD()
-            mudarM()
-            mudarJ1()
-            mudarL()
-            mudarF()
-            mudarV2()
-            mudarU2()
-            mudarD2()
-            mudarC()
-        }else {
-                document.getElementById('corEMarcaDaAeronave').innerHTML = ""
-        }
+    var textoM = document.getElementById("textoMatricula").value.trim(); // Remove espaços em branco no início e no final
+
+    if (textoM === "PR-YSQ") {
+        document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
+        document.getElementById('pessoasABordo').innerHTML = "TBN";
+        mudarU();
+        mudarV();
+        mudarP();
+        mudarD();
+        mudarM();
+        mudarJ1();
+        mudarL();
+        mudarF();
+        mudarV2();
+        mudarU2();
+        mudarD2();
+        mudarC();
+    } else {
+        document.getElementById('corEMarcaDaAeronave').innerHTML = "";
+    }
+
 }
 
 document.getElementById('inputImagem').addEventListener('change', function (){

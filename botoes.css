@@ -3,7 +3,7 @@
 /*Botão U --------------------------*/
 #letraU {
     position: absolute;
-    top: 846px;
+    top: 816px;
     left: 598px;
     height: 18.5px;
     width: 16px;
@@ -20,7 +20,7 @@
 }
 #botaoU1 {
     position: absolute;
-    top: 856px;
+    top: 826px;
     left: 598px;
     height: 25px;
     width: 25px;
@@ -35,13 +35,12 @@
 }
 #botaoU2 {
     position: absolute;
-    top: 856px;
+    top: 826px;
     left: 598px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -52,7 +51,7 @@
 /*Botão V --------------------------*/
 #letraV {
     position: absolute;
-    top: 846px;
+    top: 816px;
     left: 667px;
     height: 18.5px;
     width: 16px;
@@ -68,7 +67,7 @@
 }
 #botaoV1 {
     position: absolute;
-    top: 857px;
+    top: 827px;
     left: 665px;
     height: 25px;
     width: 25px;
@@ -83,13 +82,12 @@
 }
 #botaoV2 {
     position: absolute;
-    top: 856px;
+    top: 826px;
     left: 665.9px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -99,7 +97,7 @@
 /*Botão E --------------------------*/
 #letraE {
     position: absolute;
-    top: 846px;
+    top: 816px;
     left: 734px;
     height: 18.5px;
     width: 16px;
@@ -115,7 +113,7 @@
 }
 #botaoE1 {
     position: absolute;
-    top: 857px;
+    top: 827px;
     left: 733px;
     height: 25px;
     width: 25px;
@@ -130,13 +128,12 @@
 }
 #botaoE2 {
     position: absolute;
-    top: 856px;
+    top: 826px;
     left: 733px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -146,7 +143,7 @@
 /*Botão S --------------------------*/
 #letraS {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 101px;
     height: 18.5px;
     width: 16px;
@@ -162,7 +159,7 @@
 }
 #botaoS1 {
     position: absolute;
-    top: 920px;
+    top: 890px;
     left: 100px;
     height: 25px;
     width: 25px;
@@ -177,13 +174,12 @@
 }
 #botaoS2 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 100px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -193,7 +189,7 @@
 /*Botão P --------------------------*/
 #letraP {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 169px;
     height: 18.5px;
     width: 16px;
@@ -209,7 +205,7 @@
 }
 #botaoP1 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 167px;
     height: 25px;
     width: 25px;
@@ -224,13 +220,12 @@
 }
 #botaoP2 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 167px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -240,7 +235,7 @@
 /*Botão D --------------------------*/
 #letraD {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 236px;
     height: 18.5px;
     width: 16px;
@@ -256,7 +251,7 @@
 }
 #botaoD1 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 235px;
     height: 25px;
     width: 25px;
@@ -271,13 +266,12 @@
 }
 #botaoD2 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 235px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -287,7 +281,7 @@
 /*Botão M --------------------------*/
 #letraM {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 302px;
     height: 18.5px;
     width: 16px;
@@ -303,7 +297,7 @@
 }
 #botaoM1 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 303px;
     height: 25px;
     width: 25px;
@@ -318,13 +312,12 @@
 }
 #botaoM2 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 303px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -334,7 +327,7 @@
 /*Botão J1 --------------------------*/
 #letraJ1 {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 373px;
     height: 18.5px;
     width: 16px;
@@ -350,7 +343,7 @@
 }
 #botaoJ1 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 371px;
     height: 25px;
     width: 25px;
@@ -365,13 +358,12 @@
 }
 #botaoJ2 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 371px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -381,7 +373,7 @@
 /*Botão J2 --------------------------*/
 #letraJ2 {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 463px;
     height: 18.5px;
     width: 16px;
@@ -397,7 +389,7 @@
 }
 #botaoJ01 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 462px;
     height: 25px;
     width: 25px;
@@ -412,13 +404,12 @@
 }
 #botaoJ02 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 462px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -428,7 +419,7 @@
 /*Botão L --------------------------*/
 #letraL {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 531px;
     height: 18.5px;
     width: 16px;
@@ -444,7 +435,7 @@
 }
 #botaoL1 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 530px;
     height: 25px;
     width: 25px;
@@ -459,13 +450,12 @@
 }
 #botaoL2 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 530px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -475,7 +465,7 @@
 /*Botão F --------------------------*/
 #letraF {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 599px;
     height: 18.5px;
     width: 16px;
@@ -491,7 +481,7 @@
 }
 #botaoF1 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 598px;
     height: 25px;
     width: 25px;
@@ -506,13 +496,12 @@
 }
 #botaoF2 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 598px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -522,7 +511,7 @@
 /*Botão U2 --------------------------*/
 #letraU2 {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 665.9px;
     height: 18.5px;
     width: 16px;
@@ -538,7 +527,7 @@
 }
 #botaoU01 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 665.9px;
     height: 25px;
     width: 25px;
@@ -553,13 +542,12 @@
 }
 #botaoU02 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 665.9px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -569,7 +557,7 @@
 /*Botão V2 --------------------------*/
 #letraV2 {
     position: absolute;
-    top: 909px;
+    top: 879px;
     left: 734px;
     height: 18.5px;
     width: 16px;
@@ -585,7 +573,7 @@
 }
 #botaoV01 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 733px;
     height: 25px;
     width: 25px;
@@ -600,13 +588,12 @@
 }
 #botaoV02 {
     position: absolute;
-    top: 919px;
+    top: 889px;
     left: 733px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -616,7 +603,7 @@
 /*Botão D2 --------------------------*/
 #letraD2 {
     position: absolute;
-    top: 971px;
+    top: 941px;
     left: 55px;
     height: 18.5px;
     width: 16px;
@@ -632,7 +619,7 @@
 }
 #botaoD01 {
     position: absolute;
-    top: 981px;
+    top: 951px;
     left: 54px;
     height: 25px;
     width: 25px;
@@ -647,13 +634,12 @@
 }
 #botaoD02 {
     position: absolute;
-    top: 981px;
+    top: 951px;
     left: 54.5px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -663,7 +649,7 @@
 /*Botão C --------------------------*/
 #letraC {
     position: absolute;
-    top: 971px;
+    top: 941px;
     left: 258px;
     height: 18.5px;
     width: 16px;
@@ -679,7 +665,7 @@
 }
 #botaoC1 {
     position: absolute;
-    top: 982.5px;
+    top: 952.5px;
     left: 257px;
     height: 25px;
     width: 25px;
@@ -694,13 +680,12 @@
 }
 #botaoC2 {
     position: absolute;
-    top: 982.5px;
+    top: 952.5px;
     left: 258px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;
@@ -710,7 +695,7 @@
 /*Botão N --------------------------*/
 #letraN {
     position: absolute;
-    top: 1063px;
+    top: 1033px;
     left: 55px;
     height: 18.5px;
     width: 16px;
@@ -726,7 +711,7 @@
 }
 #botaoN1 {
     position: absolute;
-    top: 1074.5px;
+    top: 1044px;
     left: 55px;
     height: 25px;
     width: 25px;
@@ -741,13 +726,12 @@
 }
 #botaoN2 {
     position: absolute;
-    top: 1074.5px;
+    top: 1044px;
     left: 55px;
     height: 25px;
     width: 25px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    font-weight: bold;
     color: none;
     cursor: pointer;
     font-size: 28px;

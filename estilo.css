@@ -166,10 +166,14 @@ button#limpar:hover {
     transition:background-color 0.2s ease;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 button#imprimir {
     position: relative;
-    top: 1300px;
-    left: 1125px;
+    top: 50px;
+    left: 834px;
     bottom: 10px;
     padding: 20px;
     padding-top: 5px;
@@ -186,7 +190,7 @@ button#imprimir:hover {
     border: 2px solid rgb(2, 75, 153);
     color: rgb(2, 75, 153);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 12.9px;
     transition:background-color 0.2s ease;
 }
 
@@ -277,30 +281,36 @@ textarea#textoMatricula {
     
 }
 
-button#esconderCluna {
+button#botaoMenu {
     position: absolute;
-    right: 20%;
-    top: 12%;
-    height: 40px;
-    width: 40px;
+    right: 20px;
+    top: 60px;
+    height: 35px;
+    width: 35px;
     border-radius: 4px;
     border: none;
     font-size: 22px;
     background-color: rgb(2, 75, 153);
     color: white;
     padding-top: 0;
+    padding-left: 7.5px;
     vertical-align: middle;
 }
-button#esconderCluna:hover {
+button#botaoMenu:hover {
     background-color: white;
     color: rgb(2, 75, 153);
     border: 2px solid rgb(2, 75, 153);
     transition:background-color 0.2s ease;
+    font-size: 22px;
+    padding: 0;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    font-weight: bold;
 }
 
 img#plano {
     position: relative;
-    top: 30px;
+    top: 0px;
     z-index: -1;
     width: 850px;
     height: auto;
@@ -314,17 +324,15 @@ img#plano {
 
 #grupoParagrafosPlan {
     position: relative;
-
 }
 
 img#assinatura {
     position: absolute;
     padding: 0;
-    top: 1190px;
+    top: 1160px;
     left: 620px;
     transform: translate(-50%);
     z-index: 1;
-    background-color: rgb(0, 0, 0);
     width: auto;
     height: 44px;
     border: none;
@@ -332,85 +340,134 @@ img#assinatura {
 
 
 
-/*----  PLANO DE VOO  --------------------------------*/
-.colunaEsquerda {
+/*----  PLANO DE VOO  --------------------------------------*/
+.colunaCentral {
     position: absolute;
+    top: 50px;
     left: 50%;
     transform: translate(-50%); 
+    height: 1370px;
+    width: 1000px;
+    
 }
 
 .planoDeVoo {
+    position: relative;
+    top: 50px;
+    height: 1270px;
+    width: 870px;
+    left: 50%;
+    transform: translate(-50%); 
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 12.4px;
     font-weight: bold;
 }
 
+@media print {
+    body {
+        visibility: hidden !important;
+    }
+
+    * {
+        visibility: hidden !important;
+    }
+
+
+    .planoDeVoo {
+        visibility: visible !important;
+        transform: scale(1.35); /* Aplica zoom ao contêiner */
+        width: calc(100% / 1.5); /* Ajusta a largura para compensar o zoom */
+        height: auto; /* Mantém a proporção */
+        box-sizing: border-box;
+        margin-top: 120px;
+        margin-left: -470px;
+        page-break-after: always;
+        position: absolute;
+        
+    }
+
+    .planoDeVoo * {
+        visibility: visible !important;
+    }
+
+    @page {
+        size: A4 portrait; /* Define o tamanho da página como A4 e orienta para retrato */
+        margin: 0; /* Remove as margens da página */
+    }
+
+    #plano {
+        box-shadow: none !important;
+    }
+
+}
+
+
 
 /*----  TENS PREENCHIMENTO  --------------------------------*/
 #identAero {
     position: absolute;
-    top: 310px;
+    top: 280px;
     left: 265px;
 }
 
 #regrasVoo {
     position: absolute;
-    top: 310px;
+    top: 280px;
     left: 582px;
 }
 
 #tipoVoo {
     position: absolute;
-    top: 310px;
+    top: 280px;
     left: 740px;
 }
 
 #numero {
     position: absolute;
-    top: 356px;
+    top: 326px;
     left: 61px;
 }
 
 #tipoAero {
     position: absolute;
-    top: 356px;
+    top: 326px;
     left: 220px;
 }
 #catEstTurb {
     position: absolute;
-    top: 355px;
+    top: 325px;
     left: 491px;
 }
 #equipamento {
     position: absolute;
-    top: 362px;
+    top: 332px;
     left: 626px;
     font-size: 12px;
     letter-spacing: 1px;
 }
 #aerodroPart {
     position: absolute;
-    top: 401px;
+    top: 371px;
     left: 129px;
 }
 #hora {
     position: absolute;
-    top: 401px;
+    top: 371px;
     left: 333px
 }
 #veloCruz {
     position: absolute;
-    top: 447px;
+    top: 417px;
     left: 61px;
 }
 #nivel {
     position: absolute;
-    top: 447px;
+    top: 417px;
     left: 198px;
 }
 #rota {
     position: absolute;
-    top: 445px;
+    top: 415px;
     left: 31px;
     resize: none;
     height: 153px;
@@ -429,27 +486,27 @@ img#assinatura {
 }
 #aerodroDest {
     position: absolute;
-    top: 621px;
+    top: 591px;
     left: 128px;
 }
 #totalEtt {
     position: absolute;
-    top: 621px;
+    top: 591px;
     left: 332px;
 }
 #aerodroAltn {
     position: absolute;
-    top: 621px;
+    top: 591px;
     left: 514px;
 }
 #aerodroAltn2 {
     position: absolute;
-    top: 621px;
+    top: 591px;
     left: 671px;
 }
 #OutrosDados {
     position: absolute;
-    top: 663px;
+    top: 633px;
     left: 31px;
     resize: none;
     height: 115px;
@@ -471,7 +528,7 @@ img#assinatura {
 /*-----   INFORMAÇÕES SUPLEMENTARES   -------------------------*/
 #autonomia {
     position: absolute;
-    top: 860px;
+    top: 830px;
     left: 102px;
     resize: none;
     height: 19px;
@@ -489,7 +546,7 @@ img#assinatura {
 }
 #pessoasABordo {
     position: absolute;
-    top: 860px;
+    top: 830px;
     left: 303px;
     resize: none;
     height: 19px;
@@ -507,77 +564,77 @@ img#assinatura {
 }
 #uhf {
     position: absolute;
-    top: 848px;
+    top: 818px;
     left: 624px;
 }
 #vhf {
     position: absolute;
-    top: 848px;
+    top: 818px;
     left: 691px;
 }
 #elt {
     position: absolute;
-    top: 848px;
+    top: 818px;
     left: 759px;
 }
 #botes {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 126px;
 }
 #polar {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 193px;
 }
 #deserto {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 261.5px;
 }
 #maritmo {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 329px;
 }
 #selva {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 397px;
 }
 #coletes {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 488px;
 }
 #luz {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 556px;
 }
 #fluores {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 623.5px;
 }
 #uhf2 {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 691.5px;
 }
 #vhf2 {
     position: absolute;
-    top: 911px;
+    top: 881px;
     left: 759px;
 }
 #d {
     position: absolute;
-    top: 973,3px;
+    top: 943,3px;
     left: 81px;
 }
 #numero2 {
     position: absolute;
-    top: 988px;
+    top: 958px;
     left: 100px;
     resize: none;
     height: 17px;
@@ -595,7 +652,7 @@ img#assinatura {
 }
 #capacidade {
     position: absolute;
-    top: 988px;
+    top: 958px;
     left: 168px;
     resize: none;
     height: 17px;
@@ -613,12 +670,12 @@ img#assinatura {
 }
 #abrigo {
     position: absolute;
-    top: 974px;
+    top: 944px;
     left: 283.5px;
 }
 #cor {
     position: absolute;
-    top: 987px;
+    top: 957px;
     left: 304px;
     resize: none;
     height: 17px;
@@ -636,7 +693,7 @@ img#assinatura {
 }
 #corEMarcaDaAeronave {
     position: absolute;
-    top: 1032px;
+    top: 1002px;
     left: 100px;
     letter-spacing: 1px;
     resize: none;
@@ -654,13 +711,13 @@ img#assinatura {
 }
 #n {
     position: absolute;
-    top: 1065,5px;
+    top: 1035,5px;
     left: 80.5px;
     letter-spacing: 1px;
 }
 #observacoes {
     position: absolute;
-    top: 1079px;
+    top: 1049px;
     left: 100px;
     letter-spacing: 1px;
     resize: none;
@@ -678,7 +735,7 @@ img#assinatura {
 }
 #pilotoEmComando {
     position: absolute;
-    top: 1125px;
+    top: 1095px;
     left: 100px;
     letter-spacing: 1px;
     resize: none;
@@ -696,7 +753,7 @@ img#assinatura {
 }
 #nome {
     position: absolute;
-    top: 1205px;
+    top: 1180px;
     left: 45px;
     letter-spacing: 1px;
     resize: none;
@@ -718,7 +775,7 @@ img#assinatura {
 }
 #codigoDac {
     position: absolute;
-    top: 1217px;
+    top: 1187px;
     left: 325px;
     resize: none;
     height: 17px;

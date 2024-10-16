@@ -12,7 +12,7 @@
         <h2>Sistema de preenchimento do Plano de Voo</h2>
     
 
-    <div class="colunaEsquerda">
+    <div class="colunaCentral">
         <div class="planoDeVoo">
             <img id="plano" src="plano-de-voo-img.jpg" alt="">
                 <div class="grupoParagrafosPlan">
@@ -125,19 +125,20 @@
                     
                 </div>
         </div>
+        <button onclick="menu()" id="botaoMenu"><abbr title="Menu">☰</abbr></button>
+        <button onclick="window.print()" id="imprimir"><abbr title="Imprimir">Imprimir</abbr></button>
     </div>
-    <button onclick="imprimir('colunaEsquerda')" id="imprimir">Imprimir</button>
 
     <div class="fundo">
         <div id="JanelaMenu" style="display: none;">
             <div id="fundoColuna">
                 <div id="boxMenu">
                     <p id="abaColaInfoPlan">Inserção de dados</p>
-                    <button id="botaoFechar" onclick="fechar()">✖</button>
+                    <button id="botaoFechar" onclick="fechar()"><abbr title="Fechar">✖</abbr></button>
                     <div id="janelaInternaReferência">
                         <p id="infoText">Plano de voo ATC ↴</p>
                         <textarea name="caixaTexto" id="caixaTexto"></textarea>
-                        <button onclick="enviar()" id="enviar">Enviar</button>
+                        <button onclick="enviar()" id="enviar"><abbr title="Preencher plano de voo">Enviar</abbr></button>
                         <div class="boxAssinatura">
                             <div class="janelaInternaAssinatura">
                                 <p id="textoAssinatura">Assinatura digital</p>
@@ -152,18 +153,16 @@
                             </div>
                         </div>
                     </div>
-                    <button onclick="limpar()" id="limpar">Limpar tudo</button>
+                    <button onclick="limpar()" id="limpar"><abbr title="Limpar todas as informações da página">Limpar tudo</abbr></button>
                 </div>
             </div>
         </div>
     </div>
-    <button onclick="esconder()" id="esconderCluna">☰</button>
     
     
     
     <script src="script.js"></script>
     <script src="botoes.js"></script>
-    <script src="impressao.js"></script>
 
 </body>
 </html>
