@@ -1,75 +1,116 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(223, 233, 247);
+    background-color: rgb(219, 238, 255);
     height: 200vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.barraSuperior {
-    background-color: rgb(4, 40, 120);
-    color: white;
+h2 {
+    background-color: rgb(2, 75, 153);
+    padding: 10px;
     margin: 0;
-    padding: 1px;
     text-align: center;
-    justify-content: center;
+    color: white;
 }
 
 #abaColaInfoPlan {
-    top: 0;
+    margin-top: 0px;
     margin: 10px;
+    margin-left: 10px;
     text-align: left;
     color: white;
-    font-weight: bold;
 }
 
-#colunaDireita {
+button#botaoFechar {
     position: absolute;
+    top: 6px;
+    right: 6px;
+    height: 20px;
+    width: 20px;
+    padding-top: 0.2px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    margin: 0;
+    align-items: center;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 75, 153);
+    z-index: 1;
+    cursor: pointer;
+}
+
+button#botaoFechar:hover {
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border: 1px solid white;
+    font-size: 11px;
+    padding-left: 4.7px;
+    padding-top: 1px;
+    transition:background-color 0.2s ease;
+}
+
+#infoText {
+    position: relative;
+    top: 25px;
+    text-align: left;
+    margin-left: 28px;
+    color: rgb(119, 119, 119);
+}
+
+#JanelaMenu {
+    position: absolute;
+    top: 0;
     left: 50%;
     transform: translate(-50%);
     min-width: max-content;
     text-align: center;
-    
 }
 
-#boxReferencia {
+#boxMenu {
     position: absolute;
-    background-color: rgb(4, 40, 120);
-    height: 335px;
-    width: 95%;
+    background-color: rgb(2, 75, 153);
+    height: 600px;
+    width: 95.7%;
     border-radius: 4px;
     margin: 15px;
     z-index: 1;
 }
 #janelaInternaReferência {
     position: relative;
+    top: -8px;
     left: 50%;
     transform: translate(-50%);
-    width: 98%;
-    height: 292px;
+    width: 99%;
+    height: 560.5px;
     background-color: rgb(246, 246, 246);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 
 }
 
 #fundoColuna {
     position: relative;
     top: 80px;
-    left: -15px;
-    background-color: rgba(0, 0, 0, 0.445);
-    height: 560px;
-    width: 629px;
+    background-color: rgba(0, 0, 0, 0.373);
+    height: 630px;
+    width: 680px;
     z-index: -1;
+    backdrop-filter: blur(15px);
 }
+
 
 textarea#caixaTexto {
     position: relative;
+    top: 15px;
     left: 0;
     margin: 10px;
     margin-top: 15px;
     height: 200px;
     width: 90%;
     padding: 5px;
-    border-radius: 4px;
+    border-radius: 3px;
     border: 1px solid rgb(141, 141, 141);
     resize: none;
     text-indent: 0px;
@@ -79,99 +120,182 @@ textarea#caixaTexto {
 
 button#enviar {
     position: relative;
-    left: 0;
+    top: 240px;
+    left: 254px;
     margin: 0;
     margin-left: 0;
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(4, 40, 120);
-    border-radius: 8px;
+    background-color: rgb(2, 75, 153);
+    border-radius: 3px;
     color: white;
     cursor: pointer;
-    border: 2.1px solid rgb(4, 40, 120);
+    border: 2.1px solid rgb(2, 75, 153);
 }
 button#enviar:hover {
     background-color: rgb(246, 246, 246);
-    border: 2px solid rgb(4, 40, 120);
-    color: rgb(4, 40, 120);
+    border: 2px solid rgb(2, 75, 153);
+    color: rgb(2, 75, 153);
     font-weight: bold;
+    font-size: 12px;
+    transition:background-color 0.2s ease;
 }
 
 button#limpar {
-    position: absolute;
-    top: 500px;
-    left: 225px;
-    margin-left: 15px;
+    position: relative;
+    top: -54px;
+    left: -236px;
+    bottom: 10px;
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(4, 40, 120);
-    border-radius: 8px;
+    background-color: rgb(2, 75, 153);
+    border-radius: 3px;
     color: white;
     cursor: pointer;
-    border: 2.1px solid rgb(4, 40, 120);
+    border: 2.1px solid rgb(2, 75, 153);
     z-index: 1;
 }
 button#limpar:hover {
     background-color: rgb(246, 246, 246);
-    border: 2px solid rgb(4, 40, 120);
-    color: rgb(4, 40, 120);
+    border: 2px solid rgb(2, 75, 153);
+    color: rgb(2, 75, 153);
     font-weight: bold;
+    font-size: 12px;
+    transition:background-color 0.2s ease;
 }
 
-#abaCarregarImagem {
-    position: absolute;
-    top: -16px;
-    left: 0px;
-    background-color: rgb(4, 40, 120);
-    padding: 10px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    width: 580px;
+button#imprimir {
+    position: relative;
+    top: 1300px;
+    left: 1125px;
+    bottom: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(2, 75, 153);
+    border-radius: 3px;
     color: white;
+    cursor: pointer;
+    border: 2.1px solid rgb(2, 75, 153);
+    z-index: 1;
+}
+button#imprimir:hover {
+    background-color: rgb(246, 246, 246);
+    border: 2px solid rgb(2, 75, 153);
+    color: rgb(2, 75, 153);
+    font-weight: bold;
+    font-size: 12px;
+    transition:background-color 0.2s ease;
+}
+
+#textoAssinatura {
+    position: absolute;
+    top: -20px;
+    left: 24px;
+    padding: 5px;
+    padding-left: 10px;
     text-align: left;
-    font-size: 16px;
+    color: rgb(0, 0, 0);
+    width: 320px;
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border-radius: 3px;
+
 }
 
 .boxAssinatura {
     position: absolute;
-    top: 350px;
-    background-color: rgb(246, 246, 246);
-    height: 90px;
+    top: 307px;
+    left: 254px;
+    padding-top: 15px;
     width: 580px;
-    padding: 10px;
     border-radius: 8px;
+}
+
+.janelaInternaAssinatura {
+    border: 1px solid gray;
+    margin-left: 25px;
+    height: 90px;
+    width: 331px;
 }
 
 input#inputImagem {
     position: relative;
     margin-top: 37px;
+}
+
+#infoMatricula {
+    position: absolute;
+    top: -20px;
+    left: 24px;
+    padding: 5px;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    width: 220px;
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border-radius: 3px;
+}
+
+#exMatricula {
+    position: relative;
+    top: 15px;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(114, 114, 114);
+}
+
+.matricula {
+    position: absolute;
+    top: 307px;
+    left: 2px;
+    padding-top: 15px;
+    width: 220px;
+    border-radius: 8px;
+}
+
+.janelaInternaMatricula {
+    border: 1px solid gray;
     margin-left: 25px;
-    border: 1px solid rgb(186, 186, 186);
-    padding: 15px;
-    width: 420px;
-    border-radius: 4px;
+    height: 90px;
+    width: 231px;
+}
+
+textarea#textoMatricula {
+    position: relative;
+    top: 20px;
+    height: 20px;
+    width: 170px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    
 }
 
 button#esconderCluna {
     position: absolute;
-    right: 12px;
-    top: 14px;
+    right: 20%;
+    top: 12%;
     height: 40px;
     width: 40px;
     border-radius: 4px;
     border: none;
     font-size: 22px;
-    background-color: rgb(4, 40, 120);
+    background-color: rgb(2, 75, 153);
     color: white;
     padding-top: 0;
     vertical-align: middle;
 }
 button#esconderCluna:hover {
     background-color: white;
-    color: rgb(4, 40, 120);
-    border: 2px solid rgb(4, 40, 120);
+    color: rgb(2, 75, 153);
+    border: 2px solid rgb(2, 75, 153);
+    transition:background-color 0.2s ease;
 }
 
 img#plano {
@@ -187,9 +311,23 @@ img#plano {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 #grupoParagrafosPlan {
     position: relative;
 
+}
+
+img#assinatura {
+    position: absolute;
+    padding: 0;
+    top: 1190px;
+    left: 620px;
+    transform: translate(-50%);
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 44px;
+    border: none;
 }
 
 
@@ -207,71 +345,73 @@ img#plano {
     font-weight: bold;
 }
 
+
+/*----  TENS PREENCHIMENTO  --------------------------------*/
 #identAero {
     position: absolute;
     top: 310px;
-    left: 285px;
+    left: 265px;
 }
 
 #regrasVoo {
     position: absolute;
     top: 310px;
-    left: 601px;
+    left: 582px;
 }
 
 #tipoVoo {
     position: absolute;
     top: 310px;
-    left: 759px;
+    left: 740px;
 }
 
 #numero {
     position: absolute;
     top: 356px;
-    left: 81px;
+    left: 61px;
 }
 
 #tipoAero {
     position: absolute;
     top: 356px;
-    left: 240px;
+    left: 220px;
 }
 #catEstTurb {
     position: absolute;
-    top: 356px;
-    left: 511px;
+    top: 355px;
+    left: 491px;
 }
 #equipamento {
     position: absolute;
     top: 362px;
-    left: 646px;
+    left: 626px;
     font-size: 12px;
     letter-spacing: 1px;
 }
 #aerodroPart {
     position: absolute;
     top: 401px;
-    left: 149px;
+    left: 129px;
 }
 #hora {
     position: absolute;
     top: 401px;
-    left: 353px
+    left: 333px
 }
 #veloCruz {
     position: absolute;
-    top: 449px;
-    left: 80px;
+    top: 447px;
+    left: 61px;
 }
 #nivel {
     position: absolute;
-    top: 449px;
-    left: 218px;
+    top: 447px;
+    left: 198px;
 }
 #rota {
     position: absolute;
     top: 445px;
-    left: 51px;
+    left: 31px;
     resize: none;
     height: 153px;
     width: 796px;
@@ -290,27 +430,27 @@ img#plano {
 #aerodroDest {
     position: absolute;
     top: 621px;
-    left: 148px;
+    left: 128px;
 }
 #totalEtt {
     position: absolute;
-    top: 622px;
-    left: 352px;
+    top: 621px;
+    left: 332px;
 }
 #aerodroAltn {
     position: absolute;
-    top: 622px;
-    left: 533px;
+    top: 621px;
+    left: 514px;
 }
 #aerodroAltn2 {
     position: absolute;
-    top: 622px;
-    left: 691px;
+    top: 621px;
+    left: 671px;
 }
 #OutrosDados {
     position: absolute;
     top: 663px;
-    left: 51px;
+    left: 31px;
     resize: none;
     height: 115px;
     width: 794px;
@@ -332,7 +472,7 @@ img#plano {
 #autonomia {
     position: absolute;
     top: 860px;
-    left: 122px;
+    left: 102px;
     resize: none;
     height: 19px;
     width: 89px;
@@ -350,7 +490,7 @@ img#plano {
 #pessoasABordo {
     position: absolute;
     top: 860px;
-    left: 322px;
+    left: 303px;
     resize: none;
     height: 19px;
     width: 71px;
@@ -438,7 +578,7 @@ img#plano {
 #numero2 {
     position: absolute;
     top: 988px;
-    left: 120px;
+    left: 100px;
     resize: none;
     height: 17px;
     width: 49px;
@@ -456,7 +596,7 @@ img#plano {
 #capacidade {
     position: absolute;
     top: 988px;
-    left: 187px;
+    left: 168px;
     resize: none;
     height: 17px;
     width: 69px;
@@ -478,8 +618,8 @@ img#plano {
 }
 #cor {
     position: absolute;
-    top: 988px;
-    left: 321px;
+    top: 987px;
+    left: 304px;
     resize: none;
     height: 17px;
     width: 180px;
@@ -496,8 +636,8 @@ img#plano {
 }
 #corEMarcaDaAeronave {
     position: absolute;
-    top: 1033px;
-    left: 120px;
+    top: 1032px;
+    left: 100px;
     letter-spacing: 1px;
     resize: none;
     height: 17px;
@@ -520,8 +660,8 @@ img#plano {
 }
 #observacoes {
     position: absolute;
-    top: 1080px;
-    left: 120px;
+    top: 1079px;
+    left: 100px;
     letter-spacing: 1px;
     resize: none;
     height: 17px;
@@ -539,7 +679,7 @@ img#plano {
 #pilotoEmComando {
     position: absolute;
     top: 1125px;
-    left: 120px;
+    left: 100px;
     letter-spacing: 1px;
     resize: none;
     height: 17px;
@@ -557,7 +697,7 @@ img#plano {
 #nome {
     position: absolute;
     top: 1205px;
-    left: 65px;
+    left: 45px;
     letter-spacing: 1px;
     resize: none;
     height: 17px;
@@ -574,11 +714,12 @@ img#plano {
 }
 ::placeholder{
     color: rgba(128, 128, 128, 0.59);
+    font-style: italic;
 }
 #codigoDac {
     position: absolute;
     top: 1217px;
-    left: 344px;
+    left: 325px;
     resize: none;
     height: 17px;
     width: 143px;
@@ -594,14 +735,3 @@ img#plano {
     border: none;
 }
 
-img#assinatura {
-    position: absolute;
-    padding: 0;
-    top: 1192px;
-    left: 640px;
-    transform: translate(-50%);
-    z-index: 1;
-    background-color: rgb(0, 0, 0);
-    width: auto;
-    height: 44px;
-}

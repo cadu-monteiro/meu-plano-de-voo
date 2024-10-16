@@ -8,10 +8,8 @@
     <link rel="stylesheet" href="botoes.css">
 </head>
 <body>
-    <div class="barraSuperior">
+
         <h2>Sistema de preenchimento do Plano de Voo</h2>
-    </div>
-    
     
 
     <div class="colunaEsquerda">
@@ -123,35 +121,49 @@
 
                     <textarea name="codigoDac" id="codigoDac" maxlength="6"></textarea>
                     
+                    <img id="assinatura" style="display: none;" />
+                    
                 </div>
         </div>
     </div>
+    <button onclick="imprimir('colunaEsquerda')" id="imprimir">Imprimir</button>
 
-    <div id="colunaDireita" style="display: block;">
-        <div id="fundoColuna">
-            <div id="boxReferencia">
-                <p id="abaColaInfoPlan">Cole as informações do Plano aqui</p>
-                <div id="janelaInternaReferência">
-                    <textarea name="caixaTexto" id="caixaTexto"></textarea>
-                    <button onclick="enviar()" id="enviar">Enviar</button>
+    <div class="fundo">
+        <div id="JanelaMenu" style="display: none;">
+            <div id="fundoColuna">
+                <div id="boxMenu">
+                    <p id="abaColaInfoPlan">Inserção de dados</p>
+                    <button id="botaoFechar" onclick="fechar()">✖</button>
+                    <div id="janelaInternaReferência">
+                        <p id="infoText">Plano de voo ATC ↴</p>
+                        <textarea name="caixaTexto" id="caixaTexto"></textarea>
+                        <button onclick="enviar()" id="enviar">Enviar</button>
+                        <div class="boxAssinatura">
+                            <div class="janelaInternaAssinatura">
+                                <p id="textoAssinatura">Assinatura digital</p>
+                                <input type="file" id="inputImagem" accept="image/*">
+                            </div>
+                        </div>
+                        <div class="matricula">
+                            <div class="janelaInternaMatricula">
+                                <p id="infoMatricula">Matrícula</p>
+                                <p id="exMatricula">Ex: PR-YRB</p>
+                                <textarea name="" id="textoMatricula" maxlength="6"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button onclick="limpar()" id="limpar">Limpar tudo</button>
                 </div>
-
-
-                <div class="boxAssinatura">
-                    <p id="abaCarregarImagem">Assinatura</p>
-                    <input type="file" id="inputImagem" accept="image/*">
-                </div>
-                <button onclick="limpar()" id="limpar">Limpar tudo</button>
             </div>
         </div>
-        
     </div>
     <button onclick="esconder()" id="esconderCluna">☰</button>
     
-    <img id="assinatura" style="display: none;" />
     
     
     <script src="script.js"></script>
     <script src="botoes.js"></script>
+    <script src="impressao.js"></script>
+
 </body>
 </html>

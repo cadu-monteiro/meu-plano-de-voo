@@ -1,10 +1,19 @@
 function esconder() {
-    const coluna = document.querySelector('#colunaDireita')
+    const coluna = document.querySelector('#JanelaMenu')
 
     if (coluna.style.display == 'none') {
         coluna.style.display = 'block'
         
+        
     } else {
+        coluna.style.display = 'none'
+        
+    }
+}
+function fechar() {
+    const coluna = document.querySelector('#JanelaMenu')
+
+    if (coluna.style.display == 'block') {
         coluna.style.display = 'none'
     }
 }
@@ -15,6 +24,8 @@ function esconder() {
 function enviar() {
     var texto = document.getElementById("caixaTexto").value
     var linha = texto.split('\n')
+    fechar()
+
     
 
     var identAero = linha[0]
@@ -104,7 +115,6 @@ function enviar() {
         }else {
                 document.getElementById('corEMarcaDaAeronave').innerHTML = ""
         }
-
 }
 
 document.getElementById('inputImagem').addEventListener('change', function (){
