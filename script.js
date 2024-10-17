@@ -19,8 +19,28 @@ function fechar() {
     if (coluna.style.display == 'block') {
         coluna.style.display = 'none'
     }
+    
 }
+function fecharConfirmacao() {
+    const confirmacao = document.querySelector('#fundoJanelaDeConfirmacao')
+    const botaoSim = document.querySelector('#botaoSim')
+    const botaoNao = document.querySelector('#botaoNao')
 
+    if (confirmacao.style.display == 'block') {
+        confirmacao.style.display = 'none'
+    }
+    
+}
+function nao() {
+    const confirmacao = document.querySelector('#fundoJanelaDeConfirmacao')
+
+    if (confirmacao.style.display == 'block') {
+        confirmacao.style.display = 'none'
+    }
+}
+function sim() {
+    location.reload()
+}
 
 
 /*--- IMPORTAÇÃO DA ASSINATURA DIGITAL ----------------------------*/
@@ -45,9 +65,21 @@ function carregarImagem() {
 }
 
 function limpar() {
-    location.reload()
+    const janelaConfirmacao = document.getElementById('fundoJanelaDeConfirmacao')
+
+    if (janelaConfirmacao.style.display == 'none') {
+        janelaConfirmacao.style.display = 'block'
+    }
     
 }
+
+
+
+/*--- VERIFICAÇÃO DE ERROS ----------------------------------------*/
+const verificaErroTotalEtt = document.querySelector('totalEtt')
+
+
+
 
 
 
