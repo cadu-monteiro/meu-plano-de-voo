@@ -93,11 +93,11 @@ button#botaoFechar:hover {
 #fundoColuna {
     position: relative;
     top: 80px;
-    background-color: rgba(0, 0, 0, 0.373);
+    background-color: rgba(0, 0, 0, 0.474);
     height: 630px;
     width: 680px;
     z-index: -1;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
 }
 
 
@@ -170,28 +170,77 @@ abbr {
     text-decoration: none;
 }
 
+
+button#botaoMenu {
+    position: absolute;
+    left: 945px;
+    top: 60px;
+    height: 42px;
+    width: 43px;
+    border-radius: 3px;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(2, 75, 153);
+    color: white;
+    padding-top: 0;
+    padding-bottom: 3px;
+    padding-left: 7.5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button#botaoMenu:hover {
+    background-color: white;
+    color: rgb(2, 75, 153);
+    border: 2px solid rgb(2, 75, 153);
+    transition:background-color 0.2s ease;
+    font-size: 22px;
+    padding: 0;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    width: 43px;
+}
+
+
 button#imprimir {
     position: relative;
-    top: 50px;
-    left: 834px;
+    top: -1155px;
+    left: 945px;
     bottom: 10px;
-    padding: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 8px;
+    padding-top:0px;
+    padding-bottom: 0px;
     background-color: rgb(2, 75, 153);
     border-radius: 3px;
     color: white;
     cursor: pointer;
     border: 2.1px solid rgb(2, 75, 153);
     z-index: 1;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    width: 43px;
+    height: 42px;
 }
 button#imprimir:hover {
+    position: relative;
+    top: -1155px;
+    left: 945px;
+    bottom: 10px;
+    padding: 8px;
+    padding-top:0px;
+    padding-bottom: 0px;
     background-color: rgb(246, 246, 246);
-    border: 2px solid rgb(2, 75, 153);
+    border-radius: 3px;
     color: rgb(2, 75, 153);
+    border: 2px solid rgb(2, 75, 153);
+    z-index: 1;
     font-weight: bold;
-    font-size: 12.9px;
-    transition:background-color 0.2s ease;
+    font-size: 30px;
+    display: block;
+    width: 43px;
+    transition:background-color 0.5s ease;
 }
 
 #textoAssinatura {
@@ -281,32 +330,6 @@ textarea#textoMatricula {
     
 }
 
-button#botaoMenu {
-    position: absolute;
-    right: 20px;
-    top: 60px;
-    height: 35px;
-    width: 35px;
-    border-radius: 4px;
-    border: none;
-    font-size: 22px;
-    background-color: rgb(2, 75, 153);
-    color: white;
-    padding-top: 0;
-    padding-left: 7.5px;
-    vertical-align: middle;
-}
-button#botaoMenu:hover {
-    background-color: white;
-    color: rgb(2, 75, 153);
-    border: 2px solid rgb(2, 75, 153);
-    transition:background-color 0.2s ease;
-    font-size: 22px;
-    padding: 0;
-    padding-left: 2px;
-    padding-bottom: 5px;
-    font-weight: bold;
-}
 
 img#plano {
     position: relative;
@@ -383,7 +406,7 @@ img#assinatura {
         margin-left: -470px;
         page-break-after: always;
         position: absolute;
-        
+
     }
 
     .planoDeVoo * {
