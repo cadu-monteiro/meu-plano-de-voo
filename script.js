@@ -1,5 +1,6 @@
 function menu() {
     const coluna = document.querySelector('#JanelaMenu')
+    const infoMenu = document.querySelector('#insersaoDados')
 
     if (coluna.style.display == 'none') {
         coluna.style.display = 'block'
@@ -12,6 +13,10 @@ function menu() {
     if (coluna.style.display = 'block') {
         return
     }
+
+    
+
+
 }
 function fechar() {
     const coluna = document.querySelector('#JanelaMenu')
@@ -23,14 +28,13 @@ function fechar() {
 }
 function fecharConfirmacao() {
     const confirmacao = document.querySelector('#fundoJanelaDeConfirmacao')
-    const botaoSim = document.querySelector('#botaoSim')
-    const botaoNao = document.querySelector('#botaoNao')
 
     if (confirmacao.style.display == 'block') {
         confirmacao.style.display = 'none'
     }
     
 }
+
 function nao() {
     const confirmacao = document.querySelector('#fundoJanelaDeConfirmacao')
 
@@ -40,6 +44,17 @@ function nao() {
 }
 function sim() {
     location.reload()
+}
+
+function limpar() {
+    const janelaConfirmacao = document.getElementById('fundoJanelaDeConfirmacao')
+
+
+    if (janelaConfirmacao.style.display == 'none') {
+        janelaConfirmacao.style.display = 'block'
+
+    }
+    
 }
 
 
@@ -62,15 +77,6 @@ function carregarImagem() {
 
         leitor.readAsDataURL(input.files[0])
     }
-}
-
-function limpar() {
-    const janelaConfirmacao = document.getElementById('fundoJanelaDeConfirmacao')
-
-    if (janelaConfirmacao.style.display == 'none') {
-        janelaConfirmacao.style.display = 'block'
-    }
-    
 }
 
 
