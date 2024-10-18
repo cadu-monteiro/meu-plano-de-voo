@@ -79,8 +79,8 @@ button#botaoFechar:hover {
 #JanelaDeComfirmacao {
     position: absolute;
     background-color: rgb(2, 75, 153);
-    height: 26.5%;
-    width: 29.4%;
+    height: 193px;
+    width: 470px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -187,8 +187,8 @@ button#botaoFecharConfirmacao:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(2, 75, 153);
-    height: 82%;
-    width: 40.2%;
+    height: 600px;
+    width: 649px;
     border-radius: 4px;
     margin: 15px;
     z-index: 1;
