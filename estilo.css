@@ -7,6 +7,8 @@ body {
 }
 
 h2 {
+    position: absolute;
+    width: 100vw;
     background-color: rgb(2, 75, 153);
     padding: 10px;
     margin: 0;
@@ -58,23 +60,27 @@ button#botaoFechar:hover {
     color: rgb(119, 119, 119);
 }
 
-#fundoJanelaDeConfirmacao {
+#infoJanelaConfirmacao {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 15px;
+    top: -6px;
+    color: white;
+    font-size: 16px;
+}
+
+#fundoJanelaDeConfirmacao {
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.474);
-    height: 220px;
-    width: 500px;
+    height: 100vh;
+    width: 100vw;
     z-index: 0;
-    backdrop-filter: blur(20px);
 }
 
 #JanelaDeComfirmacao {
     position: absolute;
     background-color: rgb(2, 75, 153);
-    height: 88%;
-    width: 94%;
+    height: 26.5%;
+    width: 29.4%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -167,7 +173,7 @@ button#botaoFecharConfirmacao:hover {
 }
 
 #JanelaMenu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 50%;
     transform: translate(-50%);
@@ -177,9 +183,12 @@ button#botaoFecharConfirmacao:hover {
 
 #boxMenu {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgb(2, 75, 153);
-    height: 600px;
-    width: 95.7%;
+    height: 82%;
+    width: 40.2%;
     border-radius: 4px;
     margin: 15px;
     z-index: 1;
@@ -199,12 +208,10 @@ button#botaoFecharConfirmacao:hover {
 
 #fundoColuna {
     position: relative;
-    top: 80px;
     background-color: rgba(0, 0, 0, 0.474);
-    height: 630px;
-    width: 680px;
+    height: 100vh;
+    width: 100vw;
     z-index: -1;
-    backdrop-filter: blur(20px);
 }
 
 
@@ -323,8 +330,8 @@ button#imprimir {
     top: -1155px;
     left: 945px;
     bottom: 10px;
-    padding: 8px;
     padding-top:0px;
+    padding-left: 8px;
     padding-bottom: 0px;
     background-color: rgb(2, 75, 153);
     border-radius: 3px;
@@ -332,8 +339,7 @@ button#imprimir {
     cursor: pointer;
     border: 2.1px solid rgb(2, 75, 153);
     z-index: 1;
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     display: block;
     width: 43px;
     height: 42px;
@@ -343,7 +349,6 @@ button#imprimir:hover {
     top: -1155px;
     left: 945px;
     bottom: 10px;
-    padding: 8px;
     padding-top:0px;
     padding-bottom: 0px;
     background-color: rgb(246, 246, 246);
@@ -352,7 +357,7 @@ button#imprimir:hover {
     border: 2px solid rgb(2, 75, 153);
     z-index: 1;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     display: block;
     width: 43px;
     transition:background-color 0.5s ease;
@@ -484,7 +489,6 @@ input#inputImagem {
     padding: 0;
     margin: 0;
     font-size: 12px;
-    font-style: italic;
     color: rgb(114, 114, 114);
 }
 
@@ -528,6 +532,7 @@ img#plano {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
     padding-top: 20px;
     padding-bottom: 20px;
+    z-index: 0;
 }
 
 #grupoParagrafosPlan {

@@ -133,7 +133,7 @@
         <p id="paragrafoLimpar">Limpar tudo</p>
     </div>
 
-    <div class="fundo">
+    
         <div id="JanelaMenu" style="display: none;">
             <div id="fundoColuna">
                 <div id="boxMenu">
@@ -142,7 +142,7 @@
                     <div id="janelaInternaReferência">
                         <p id="infoText">Plano de voo ATC ↴</p>
                         <textarea name="caixaTexto" id="caixaTexto"></textarea>
-                        <p id="infoCaixaTexto">Importante! Sempre verifique o espaçamento das linhas de "Rota" e "Outros dados"</p>
+                        <p id="infoCaixaTexto"></p>
                         <button onclick="enviar()" id="enviar"><abbr title="Preencher plano de voo">Enviar</abbr></button>
                         <div class="boxAssinatura">
                             <div class="janelaInternaAssinatura">
@@ -162,10 +162,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 
     <div id="fundoJanelaDeConfirmacao" style="display: none;">
         <div id="JanelaDeComfirmacao">
+            <p id="infoJanelaConfirmacao">Limpar tudo</p>
             <button id="botaoFecharConfirmacao" onclick="fecharConfirmacao()"><abbr title="Fechar">✖</abbr></button>
             <div id="janelaInternaConfirmacao">
                 <p id="perguntaDeConfirmacao">Apagar todos os dados inseridos?</p>

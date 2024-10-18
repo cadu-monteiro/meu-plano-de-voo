@@ -1,9 +1,11 @@
 function menu() {
     const coluna = document.querySelector('#JanelaMenu')
-    const infoMenu = document.querySelector('#insersaoDados')
+    const fundoFull = document.querySelector('body')
 
-    if (coluna.style.display == 'none') {
+    if (coluna.style.display == 'none' && fundoFull.style.display == 'none') {
         coluna.style.display = 'block'
+        fundoFull.style.display = 'block'
+        
         
         
     } else {
@@ -113,87 +115,64 @@ function enviar() {
 
     
 
-    var identAero = linha[0]
-        var transf = identAero.substring(5 , 12)
-        if (identAero.includes(String + Number + Number + String)) {
-            document.getElementById('identAero').innerHTML = transf
-        }else {
-            document.getElementById('identAero').innerHTML = ""
-        }
-        
-
-    var regrasVoo = linha[0]
-        var transf = regrasVoo.substring(13,14)
-        document.getElementById('regrasVoo').innerHTML = transf
     
-    var tipoVoo = linha[0]
-        var transf = tipoVoo.substring(14,15)
-        document.getElementById('tipoVoo').innerHTML = transf
+    var identAero = linha[0].substring(5 , 12)
+    document.getElementById('identAero').innerHTML = identAero
 
-    var tipoAero = linha[1]
-    var transf = tipoAero.substring(1,5)
-        document.getElementById('tipoAero').innerHTML = transf
+    var regrasVoo = linha[0].substring(13,14)
+    document.getElementById('regrasVoo').innerHTML = regrasVoo
 
-    var catEstTurb = linha[1]
-        var transf = catEstTurb.substring(6,7)
-            document.getElementById('catEstTurb').innerHTML = transf
+    var tipoVoo = linha[0].substring(14,15)
+    document.getElementById('tipoVoo').innerHTML = tipoVoo
 
-    var equipamento = linha[1]
-        var transf = equipamento.substring(8)
-        document.getElementById('equipamento').innerHTML = transf
+    var tipoAero = linha[1].substring(1,5)
+    document.getElementById('tipoAero').innerHTML = tipoAero
 
-    var aerodroPart = linha[2]
-        var transf = aerodroPart.substring(1,5)
-        document.getElementById('aerodroPart').innerHTML = transf
+    var catEstTurb = linha[1].substring(6,7)
+    document.getElementById('catEstTurb').innerHTML = catEstTurb
 
-    var hora = linha[2]
-        var transf = hora.substring(5,9)
-        document.getElementById('hora').innerHTML = transf
+    var equipamento = linha[1].substring(8)
+    document.getElementById('equipamento').innerHTML = equipamento
 
-    var veloCruz = linha[3]
-        var transf = veloCruz.substring(1,6)
-        document.getElementById('veloCruz').innerHTML = transf
+    var aerodroPart = linha[2].substring(1,5)
+    document.getElementById('aerodroPart').innerHTML = aerodroPart
 
-    var nivel = linha[3]
-        var transf = nivel.substring(6,10)
-        document.getElementById('nivel').innerHTML = transf
+    var hora = linha[2].substring(5,9)
+    document.getElementById('hora').innerHTML = hora
 
-    var rota = linha[3];
-        var transf = rota.substring(11);
-        document.getElementById('rota').innerHTML = transf
+    var veloCruz = linha[3].substring(1,6)
+    document.getElementById('veloCruz').innerHTML = veloCruz
+
+    var nivel = linha[3].substring(6,10)
+    document.getElementById('nivel').innerHTML = nivel
+
+    var rota = linha[3].substring(11);
+    document.getElementById('rota').innerHTML = rota
+    
+
+
+
+
+
+
+    
+    var aerodroDest = linha[4].substring(1,5)
+    document.getElementById('aerodroDest').innerHTML = aerodroDest
+    
+
+    var totalEtt = linha[4].substring(5,9)
+    document.getElementById('totalEtt').innerHTML = totalEtt
+
+    var aerodroAltn = linha[4].substring(10,14)
+    document.getElementById('aerodroAltn').innerHTML = aerodroAltn
+
+    var aerodroAltn2 = linha[4].substring(15,19)
+        document.getElementById('aerodroAltn2').innerHTML = aerodroAltn2
+
+    var ultimaLinha = linha[5].slice(1,-1)
+        document.getElementById('OutrosDados').innerHTML = ultimaLinha
 
         
-
-
-
-
-
-
-
-
-
-
-    var aerodroDest = linha[4];
-        var transf = aerodroDest.substring(1,5);
-        document.getElementById('aerodroDest').innerHTML = transf
-        
-    var totalEtt = linha[4];
-        var transf = totalEtt.substring(5,9);
-        document.getElementById('totalEtt').innerHTML = transf
-
-    var aerodroAltn = linha[4];
-        var transf = aerodroAltn.substring(10,14);
-        document.getElementById('aerodroAltn').innerHTML = transf
-
-    var aerodroAltn2 = linha[4];
-        var transf = aerodroAltn2.substring(15,19);
-        document.getElementById('aerodroAltn2').innerHTML = transf
-
-    var OutrosDados = linha[5];
-        var contar = OutrosDados.length
-        var menosUm = contar - 1
-        var transf = OutrosDados.substring(1 , menosUm);
-        document.getElementById('OutrosDados').innerHTML = transf
 
 
 
