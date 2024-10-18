@@ -48,7 +48,6 @@ button#botaoFechar:hover {
     font-size: 11px;
     padding-left: 6px;
     padding-top: 1px;
-    transition:background-color 0.2s ease;
 }
 
 #infoText {
@@ -65,7 +64,7 @@ button#botaoFechar:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.474);
-    height: 250px;
+    height: 220px;
     width: 500px;
     z-index: 0;
     backdrop-filter: blur(20px);
@@ -89,7 +88,7 @@ button#botaoFechar:hover {
     left: 50%;
     transform: translate(-50%);
     width: 464px;
-    height: 180px;
+    height: 153px;
     background-color: rgb(246, 246, 246);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -111,12 +110,25 @@ button#botaoSim {
     font-size: 16px;
 }
 
+button#botaoSim:hover {
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
 button#botaoNao {
     height: 30px;
     width: 75px;
     margin-left: 20px;
     cursor: pointer;
     font-size: 16px;
+}
+button#botaoNao:hover {
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border: none;
+    border-radius: 3px;
 }
 
 #grupoBotoesSimENao {
@@ -152,7 +164,6 @@ button#botaoFecharConfirmacao:hover {
     font-size: 11px;
     padding-left: 8.1px;
     padding-top: 2.2px;
-    transition:background-color 0.2s ease;
 }
 
 #JanelaMenu {
@@ -288,7 +299,7 @@ button#botaoMenu:hover {
     position: absolute;
     top: 48px;
     left: 995px;
-    width: 160px;
+    width: 115px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -351,7 +362,7 @@ button#imprimir:hover {
     position: absolute;
     top: 103px;
     left: 995px;
-    width: 160px;
+    width: 115px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -401,7 +412,7 @@ button#limpar:hover {
     position: absolute;
     top: 159px;
     left: 995px;
-    width: 160px;
+    width: 115px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -409,8 +420,6 @@ button#limpar:hover {
     background-color: rgb(255, 255, 255);
     color:  rgb(77, 77, 77);
     border: 1px solid rgb(126, 126, 126);
-    transition:background-color 0.5s ease;
-    z-index: -1;
     display: none;
     
 }

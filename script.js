@@ -56,6 +56,17 @@ function limpar() {
 
 document.querySelector('#textoMatricula').addEventListener('input', function() {
     this.value = this.value.toUpperCase()
+    var texto = this.value
+    
+
+    if (texto.length === 3 && !texto.includes('-')) {
+        this.value = texto.slice(0,2) + '-' + texto.slice(2)
+    }
+    else if (texto.length == 7 && !texto.includes('/')) {
+        this.value = texto.slice(0,6) + '/' + texto.slice(6)
+    }
+
+
 })
 
 
@@ -85,8 +96,9 @@ function carregarImagem() {
 
 
 
+
+
 /*--- VERIFICAÇÃO DE ERROS ----------------------------------------*/
-const verificaErroTotalEtt = document.querySelector('totalEtt')
 
 
 
@@ -103,10 +115,15 @@ function enviar() {
 
     var identAero = linha[0]
         var transf = identAero.substring(5 , 12)
-        document.getElementById('identAero').innerHTML = transf
+        if (identAero.includes(String + Number + Number + String)) {
+            document.getElementById('identAero').innerHTML = transf
+        }else {
+            document.getElementById('identAero').innerHTML = ""
+        }
+        
 
     var regrasVoo = linha[0]
-        var transf = regrasVoo.substring(13 , 14)
+        var transf = regrasVoo.substring(13,14)
         document.getElementById('regrasVoo').innerHTML = transf
     
     var tipoVoo = linha[0]
@@ -145,6 +162,17 @@ function enviar() {
         var transf = rota.substring(11);
         document.getElementById('rota').innerHTML = transf
 
+        
+
+
+
+
+
+
+
+
+
+
     var aerodroDest = linha[4];
         var transf = aerodroDest.substring(1,5);
         document.getElementById('aerodroDest').innerHTML = transf
@@ -162,7 +190,7 @@ function enviar() {
         document.getElementById('aerodroAltn2').innerHTML = transf
 
     var OutrosDados = linha[5];
-        var contar = OutrosDados.length;
+        var contar = OutrosDados.length
         var menosUm = contar - 1
         var transf = OutrosDados.substring(1 , menosUm);
         document.getElementById('OutrosDados').innerHTML = transf
