@@ -477,7 +477,7 @@ else if (["PR-AJY","PR-AJZ"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    document.getElementById('botaoD02').style.display = 'block'
+    
     document.getElementById('botaoC2').style.display = 'block'
 
 }
@@ -503,7 +503,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    document.getElementById('botaoD02').style.display = 'block'
+    
     document.getElementById('botaoC2').style.display = 'block'
 
 }else if (["PR-AIV"].includes(textoMatricula)) {
@@ -524,7 +524,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    document.getElementById('botaoD02').style.display = 'block'
+    
     document.getElementById('botaoC2').style.display = 'block'
 
 }else if (["PR-AIW","PR-AIZ"].includes(textoMatricula)) {
@@ -545,7 +545,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    document.getElementById('botaoD02').style.display = 'block'
+    
     document.getElementById('botaoC2').style.display = 'block'
 
 }
@@ -570,7 +570,7 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    document.getElementById('botaoD02').style.display = 'block'
+    
     document.getElementById('botaoC2').style.display = 'block'
 
 }else if (["PR-ANV"].includes(textoMatricula)) {
@@ -591,7 +591,7 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    document.getElementById('botaoD02').style.display = 'block'
+    
     document.getElementById('botaoC2').style.display = 'block'
 
 }
@@ -616,7 +616,7 @@ else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    document.getElementById('botaoD02').style.display = 'block'
+    
     document.getElementById('botaoC2').style.display = 'block'
 
 }
