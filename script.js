@@ -477,7 +477,7 @@ else if (["PR-AJY","PR-AJZ"].includes(textoMatricula)) {
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
-    
+    document.getElementById('botaoD02').style.display = 'block'
     document.getElementById('botaoC2').style.display = 'block'
 
 }
