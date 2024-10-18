@@ -14,9 +14,6 @@ function menu() {
         return
     }
 
-    
-
-
 }
 function fechar() {
     const coluna = document.querySelector('#JanelaMenu')
@@ -57,6 +54,13 @@ function limpar() {
     
 }
 
+document.querySelector('#textoMatricula').addEventListener('input', function() {
+    this.value = this.value.toUpperCase()
+})
+
+
+
+
 
 /*--- IMPORTAÇÃO DA ASSINATURA DIGITAL ----------------------------*/
 document.getElementById('inputImagem').addEventListener('change', function (){
@@ -91,7 +95,7 @@ const verificaErroTotalEtt = document.querySelector('totalEtt')
 
 /*-----  TRANSFERÊNCIA DE DADOS  ----------------------------------*/
 function enviar() {
-    var texto = document.getElementById("caixaTexto").value
+    var texto = document.getElementById("caixaTexto").value.trim().toUpperCase()
     var linha = texto.split('\n')
     fechar()
 
