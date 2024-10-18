@@ -95,7 +95,7 @@ const verificaErroTotalEtt = document.querySelector('totalEtt')
 
 /*-----  TRANSFERÊNCIA DE DADOS  ----------------------------------*/
 function enviar() {
-    var texto = document.getElementById("caixaTexto").value.trim().toUpperCase()
+    var texto = document.getElementById("caixaTexto").value
     var linha = texto.split('\n')
     fechar()
 
