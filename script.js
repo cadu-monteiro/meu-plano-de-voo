@@ -183,6 +183,14 @@ function enviar() {
         const coluna = document.querySelector('#JanelaMenu')
         coluna.style.display = 'block'
     }
+    else if (linha.length < 6){
+
+        const coluna = document.querySelector('#JanelaMenu')
+
+        if (coluna.style.display = 'block') {
+            return
+        }
+    }
     
 
     
