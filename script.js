@@ -156,11 +156,12 @@ function carregarImagem() {
 }
 
 
-
-
-
-/*--- VERIFICAÇÃO DE ERROS ----------------------------------------*/
-
+const textarea = document.getElementById('textoMatricula');
+        textarea.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+            }
+        });
 
 
 
