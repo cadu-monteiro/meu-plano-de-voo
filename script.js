@@ -25,6 +25,9 @@ function fechar() {
     }
     
 }
+
+/*----  JANELA DE CONFIRMAÇÃO PARA LIMPAR TUDO  -------------------------------*/
+
 function fecharConfirmacao() {
     const confirmacao = document.querySelector('#fundoJanelaDeConfirmacao')
 
@@ -55,6 +58,62 @@ function limpar() {
     }
     
 }
+
+
+/*----  JANELA DE MATRÍCULA NÃO CADASTRADA  -------------------------------*/
+function OkNaoPossui() {
+    const janelaOkNaoPossui = document.querySelector('#fundoJanelaNaoPossuiMatricula')
+
+    if (janelaOkNaoPossui.style.display == 'block') {
+        janelaOkNaoPossui.style.display = 'none'
+    }   
+}
+function fecharOkNaoPossui() {
+    const janelaFecharOkNaoPossui = document.querySelector('#fundoJanelaNaoPossuiMatricula')
+
+    if (janelaFecharOkNaoPossui.style.display == 'block') {
+        janelaFecharOkNaoPossui.style.display = 'none'
+    }   
+}
+
+
+/*----  JANELA INSIRA UMA MATRÍCULA  -------------------------------*/
+function OkCadastro() {
+    const janelaCadastro = document.querySelector('#fundoJanelaCadastroMatricula')
+
+    if (janelaCadastro.style.display == 'block') {
+        janelaCadastro.style.display = 'none'
+    }   
+}
+function fecharOkCadastro() {
+    const janelaFecharCadastro = document.querySelector('#fundoJanelaCadastroMatricula')
+
+    if (janelaFecharCadastro.style.display == 'block') {
+        janelaFecharCadastro.style.display = 'none'
+    }   
+}
+
+
+/*----  JANELA NÃO POSSUI 6 LINHAS  -------------------------------*/
+function OkPrecisaDe6Linhas() {
+    const janelaCadastro = document.querySelector('#fundoPrecisaDe6Linhas')
+
+    if (janelaCadastro.style.display == 'block') {
+        janelaCadastro.style.display = 'none'
+    }   
+}
+function fecharPrecisaDe6Linhas() {
+    const janelaFecharCadastro = document.querySelector('#fundoPrecisaDe6Linhas')
+
+    if (janelaFecharCadastro.style.display == 'block') {
+        janelaFecharCadastro.style.display = 'none'
+    }   
+}
+
+
+
+
+
 
 document.querySelector('#textoMatricula').addEventListener('input', function() {
     this.value = this.value.toUpperCase()
@@ -113,6 +172,17 @@ function enviar() {
     var linha = texto.split('\n')
     fechar()
 
+
+    if (linha.length > 6) {
+        const janela = document.querySelector('#fundoPrecisaDe6Linhas')
+
+        if (janela.style.display == 'none') {
+            janela.style.display = 'block'
+        }
+
+        const coluna = document.querySelector('#JanelaMenu')
+        coluna.style.display = 'block'
+    }
     
 
     
@@ -624,11 +694,17 @@ else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
 
 
 else if ([""].includes(textoMatricula)) {
-    alert('Insira uma matricula')
+    const janela = document.querySelector('#fundoJanelaNaoPossuiMatricula')
+
+    if (janela.style.display == 'none') {
+        janela.style.display = 'block'
+    }
 
     const coluna = document.querySelector('#JanelaMenu')
     coluna.style.display = 'block'
 }
+
+
 
 
 
@@ -662,13 +738,16 @@ else if ([""].includes(textoMatricula)) {
         document.getElementById('botaoN2').style.display = 'none' 
 
 
-         alert('Matrícula não cadastrada no sistema')
+        const janela = document.querySelector('#fundoJanelaCadastroMatricula')
+
+        if (janela.style.display == 'none') {
+            janela.style.display = 'block'
+        }
 
         const coluna = document.querySelector('#JanelaMenu')
         coluna.style.display = 'block'
     }
 
-/*-----   A320  ---------------------------------------------------------------*/
 
 }
 

@@ -177,10 +177,43 @@
 
             </div>
         </div>
-
     </div>
     
+
+    <div id="fundoJanelaCadastroMatricula" style="display: none;">
+        <div id="janelaCadastroMatricula">
+            <p id="infojanelaCadastroMatricula">Aviso</p>
+            <button id="botaoFecharCadastroMatricula" onclick="fecharOkCadastro()">✖</button>
+            <div id="janelaInternaCadastroMatricula">
+                <p id="avisoJanelaCadastroMatricula">Matrícula não cadastrada</p>
+                <button id="botaoCadastroMatricula" onclick="OkCadastro()">Ok</button>
+            </div>
+        </div>
+    </div>
     
+
+    <div id="fundoJanelaNaoPossuiMatricula" style="display: none;">
+        <div id="janelaNaoPossuiMatricula">
+            <p id="infojanelaNaoPossuiMatricula">Aviso</p>
+            <button id="botaoFecharNaoPossuiMatricula" onclick="fecharOkNaoPossui()">✖</button>
+            <div id="janelaInternaNaoPossuiMatricula">
+                <p id="avisoJanelaNaoPossuiMatricula">Insira uma matrícula</p>
+                <button id="botaoNaoPossuiMatricula" onclick="OkNaoPossui()">Ok</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="fundoPrecisaDe6Linhas" style="display: none;">
+        <div id="janelaPrecisaDe6Linhas">
+            <p id="infojanelaPrecisaDe6Linhas">Aviso</p>
+            <button id="botaoFecharPrecisaDe6Linhas" onclick="fecharPrecisaDe6Linhas()">✖</button>
+            <div id="janelaInternaPrecisaDe6Linhas">
+                <p id="avisoJanelaPrecisaDe6Linhas">Verifique os espaçamentos do campo "Plano de voo ATC"</p>
+                <button id="botaoPrecisaDe6Linhas" onclick="OkPrecisaDe6Linhas()">Ok</button>
+            </div>
+        </div>
+    </div>
     
     <script src="script.js"></script>
     <script src="botoes.js"></script>
