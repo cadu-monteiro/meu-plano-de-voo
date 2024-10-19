@@ -623,8 +623,12 @@ else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
 
 
 
+else if ([""].includes(textoMatricula)) {
+    alert('Insira uma matricula')
 
-
+    const coluna = document.querySelector('#JanelaMenu')
+    coluna.style.display = 'block'
+}
 
 
 
@@ -656,6 +660,12 @@ else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
         document.getElementById('botaoD02').style.display = 'none'
         document.getElementById('botaoC2').style.display = 'none'
         document.getElementById('botaoN2').style.display = 'none' 
+
+
+         alert('Matrícula não cadastrada no sistema')
+
+        const coluna = document.querySelector('#JanelaMenu')
+        coluna.style.display = 'block'
     }
 
 /*-----   A320  ---------------------------------------------------------------*/
