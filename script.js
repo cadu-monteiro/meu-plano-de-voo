@@ -26,6 +26,24 @@ function fechar() {
     
 }
 
+/*----  JANELA SOBRE O PROJETO  -----------------------------------------------*/
+function fecharSobre() {
+    const coluna = document.querySelector('#fundoSobre')
+
+    if (coluna.style.display == 'block') {
+        coluna.style.display = 'none'
+    }
+    
+}
+
+function botaoSobre() {
+    const coluna = document.querySelector('#fundoSobre')
+
+    if (coluna.style.display == 'none') {
+        coluna.style.display = 'block'
+    }
+}
+
 /*----  JANELA DE CONFIRMAÇÃO PARA LIMPAR TUDO  -------------------------------*/
 
 function fecharConfirmacao() {
