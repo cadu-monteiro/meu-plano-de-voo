@@ -1102,7 +1102,7 @@ else if ([""].includes(textoMatricula)) {
         document.getElementById('observacoes').innerHTML = "";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
 
         document.getElementById('botaoU2').style.display = 'none'
