@@ -292,6 +292,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
 
         document.getElementById('botaoU2').style.display = 'block'
@@ -312,6 +315,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND PINK";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -331,6 +337,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "BLACK RED AND YELLOW";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -350,6 +359,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "YELLOW BLUE AND WHITE";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -369,6 +381,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "PINK WHITE AND YELLOW";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -397,6 +412,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
     
     
         document.getElementById('botaoU2').style.display = 'block'
@@ -417,6 +435,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND YELLOW";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -436,6 +457,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE AND RED";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -455,6 +479,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "COLORFUL BLUE";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -474,6 +501,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE YELLOW AND GREEN";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -493,6 +523,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND GREEN";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -511,6 +544,9 @@ function enviar() {
     }else if (["PR-AYY"].includes(textoMatricula)) {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -529,6 +565,9 @@ function enviar() {
     }else if (["PR-AUO/QC","PR-AYI/QC","PR-AYJ/QC"].includes(textoMatricula)) {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND YELLOW";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -547,6 +586,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
         
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -565,6 +607,9 @@ function enviar() {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
         document.getElementById('pessoasABordo').innerHTML = "TBN";
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
         
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -583,11 +628,14 @@ function enviar() {
 
 
 /*-----   E295  ---------------------------------------------------------------*/
-else if (["PR-AEB","PR-AEC","PR-AED","PR-AEE","PR-AEG","PR-AEH","PR-AEI","PR-AEJ",
-    "PR-AEK","PR-AEL","PR-AEM","PR-AEN","PR-AEP","PR-AEO","PR-AEQ","PR-AER"].includes(textoMatricula)) {
+else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ",
+    "PS-AEK","PS-AEL","PS-AEM","PS-AEN","PS-AEP","PS-AEO","PS-AEQ","PS-AER"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -608,6 +656,9 @@ else if (["PR-AEB","PR-AEC","PR-AED","PR-AEE","PR-AEG","PR-AEH","PR-AEI","PR-AEJ
     document.getElementById('corEMarcaDaAeronave').innerHTML = "COLORFUL BLUE";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -623,10 +674,13 @@ else if (["PR-AEB","PR-AEC","PR-AED","PR-AEE","PR-AEG","PR-AEH","PR-AEI","PR-AEJ
     document.getElementById('botaoD02').style.display = 'block'
     document.getElementById('botaoC2').style.display = 'block'
 
-}else if (["PR-AEA"].includes(textoMatricula)) {
+}else if (["PS-AEA"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND PINK";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -642,10 +696,13 @@ else if (["PR-AEB","PR-AEC","PR-AED","PR-AEE","PR-AEG","PR-AEH","PR-AEI","PR-AEJ
     document.getElementById('botaoD02').style.display = 'block'
     document.getElementById('botaoC2').style.display = 'block'
     
-}else if (["PR-AEF"].includes(textoMatricula)) {
+}else if (["PS-AEF"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE GREEN AND YELLOW";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -672,6 +729,9 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -692,6 +752,9 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND PINK";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -711,6 +774,9 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -730,6 +796,9 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE GREEN AND YELLOW";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -748,6 +817,9 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
 }else if (["PR-AKI","PR-AKJ","PR-AKL","PR-AQB","PR-TKI","PR-TKJ","PR-TKK","PR-TKL","PR-TKM"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
     
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -770,6 +842,9 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -790,6 +865,9 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE GREEN AND YELLOW";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -809,6 +887,9 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "RED AND YELLOW";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -833,6 +914,9 @@ else if (["PR-AJY","PR-AJZ"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('totalEtt').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -1016,6 +1100,9 @@ else if ([""].includes(textoMatricula)) {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "";
         document.getElementById('pessoasABordo').innerHTML = "";
         document.getElementById('observacoes').innerHTML = "";
+        document.getElementById('numero2').innerHTML = "";
+        document.getElementById('capacidade').innerHTML = "";
+        document.getElementById('totalEtt').innerHTML = "";
 
 
         document.getElementById('botaoU2').style.display = 'none'
