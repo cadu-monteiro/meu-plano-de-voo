@@ -294,7 +294,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
 
         document.getElementById('botaoU2').style.display = 'block'
@@ -317,7 +317,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -339,7 +339,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -361,7 +361,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -383,7 +383,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -414,7 +414,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
     
     
         document.getElementById('botaoU2').style.display = 'block'
@@ -437,7 +437,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -459,7 +459,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -481,7 +481,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -503,7 +503,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -525,7 +525,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -546,7 +546,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -567,7 +567,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -588,7 +588,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
         
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -609,7 +609,7 @@ function enviar() {
         document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
-        document.getElementById('totalEtt').innerHTML = "";
+        document.getElementById('autonomia').innerHTML = "";
         
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -635,7 +635,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -658,7 +658,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -680,7 +680,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -702,7 +702,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -731,7 +731,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -754,7 +754,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -776,7 +776,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -798,7 +798,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -819,7 +819,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
     
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -844,7 +844,7 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -867,7 +867,7 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -889,7 +889,7 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -916,7 +916,7 @@ else if (["PR-AJY","PR-AJZ"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
-    document.getElementById('totalEtt').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
