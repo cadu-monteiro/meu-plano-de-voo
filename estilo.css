@@ -159,6 +159,7 @@ button#botaoSobre {
 }
 
 /*----  CAMPO VAZIO DE MATRÍCULA DA AERONAVE   -------------------------*/
+
 #fundoJanelaCadastroMatricula {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.474);
@@ -605,7 +606,7 @@ button#botaoFecharConfirmacao:hover {
     left: 50%;
     transform: translate(-50%);
     width: 99%;
-    height: 560.5px;
+    height: 561px;
     background-color: rgb(246, 246, 246);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -651,7 +652,7 @@ textarea#caixaTexto {
 button#enviar {
     position: relative;
     top: 240px;
-    left: 250px;
+    left: 255px;
     margin: 0;
     margin-left: 0;
     padding: 20px;
@@ -848,83 +849,81 @@ button#limpar:hover {
 #textoAssinatura {
     position: absolute;
     top: -20px;
-    left: 24px;
+    left: 25px;
     padding: 5px;
     padding-left: 10px;
     text-align: left;
     color: rgb(0, 0, 0);
-    width: 320px;
+    width: 277px;
     background-color: rgb(2, 75, 153);
     color: white;
     border-radius: 3px;
-
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .boxAssinatura {
     position: absolute;
-    top: 327px;
-    left: 254px;
-    padding-top: 15px;
-    width: 580px;
+    top: 285px;
+    left: 300px;
+    padding-top: 5px;
     border-radius: 8px;
 }
 
 .janelaInternaAssinatura {
     border: 1px solid gray;
     margin-left: 25px;
-    height: 90px;
-    width: 331px;
+    height: 80px;
+    width: 290px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 input#inputImagem {
     position: relative;
     margin-top: 37px;
+    font-size: 12px;
 }
 
+/*----  MATRÍCULA DA AERONAVE   ----------------------------------*/
 #infoMatricula {
     position: absolute;
     top: -20px;
-    left: 24px;
+    left: 25px;
     padding: 5px;
     padding-left: 10px;
     text-align: left;
     color: rgb(0, 0, 0);
-    width: 220px;
+    width: 117px;
     background-color: rgb(2, 75, 153);
     color: white;
     border-radius: 3px;
-}
-
-#exMatricula {
-    position: relative;
-    top: 15px;
-    padding: 0;
-    margin: 0;
-    font-size: 12px;
-    color: rgb(114, 114, 114);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .matricula {
     position: absolute;
-    top: 327px;
-    left: 2px;
+    top: 285px;
+    left: 1px;
     padding-top: 15px;
-    width: 220px;
     border-radius: 8px;
 }
 
 .janelaInternaMatricula {
     border: 1px solid gray;
     margin-left: 25px;
-    height: 90px;
-    width: 231px;
+    height: 70px;
+    width: 130px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 textarea#textoMatricula {
     position: relative;
-    top: 20px;
+    top: 25px;
     height: 20px;
-    width: 170px;
+    width: 80px;
     font-size: 16px;
     resize: none;
     outline: none;
@@ -932,6 +931,157 @@ textarea#textoMatricula {
 }
 
 
+/*----  AUTONOMIA   ----------------------------------*/
+.autonomiaMenu {
+    position: absolute;
+    top: 285px;
+    left: 150px;
+    padding-top: 15px;
+    width: 220px;
+    border-radius: 8px;
+}
+#infoAutonomiaMenu {
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    width: 117px;
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.janelaInternaAutonomiaMenu {
+    border: 1px solid gray;
+    margin-left: 25px;
+    height: 70px;
+    width: 130px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+textarea#textoAutonomiaMenu {
+    position: relative;
+    top: 25px;
+    height: 20px;
+    width: 37px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    
+}
+
+/*----  NOME DO PILOTO   ----------------------------------*/
+.nomeComandante {
+    position: absolute;
+    top: 402px;
+    left: 1px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+#infoNomeComandante {
+    position: absolute;
+    top: -28px;
+    left: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    width: 267px;
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.janelaNomeComandante {
+    border: 1px solid gray;
+    margin-left: 25px;
+    height: 70px;
+    width: 280px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+textarea#textoNomeComandante {
+    position: relative;
+    top: 22px;
+    height: 20px;
+    width: 194px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    
+}
+textarea#textoPilotoAnac {
+    position: relative;
+    top: 22px;
+    height: 20px;
+    width: 62px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    
+}
+
+/*----  NOME DO DOV   ----------------------------------*/
+.nomeDov {
+    position: absolute;
+    top: 402px;
+    left: 300px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+#infoNomeDov {
+    position: absolute;
+    top: -28px;
+    left: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    width: 277px;
+    background-color: rgb(2, 75, 153);
+    color: white;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.janelaNomeDov {
+    border: 1px solid gray;
+    margin-left: 25px;
+    height: 70px;
+    width: 290px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+textarea#textoNomeDov {
+    position: relative;
+    top: 22px;
+    height: 20px;
+    width: 203px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    
+}
+textarea#textoAnac {
+    position: relative;
+    top: 22px;
+    height: 20px;
+    width: 62px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    
+}
+
+/*----  IMAGEM DO FORMULÁRIO DO PLANO   ----------------------------------*/
 img#plano {
     position: relative;
     top: 0px;

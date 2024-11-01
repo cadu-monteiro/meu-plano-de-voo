@@ -246,13 +246,6 @@ function enviar() {
     var rota = linha[3].substring(11);
     document.getElementById('rota').innerHTML = rota
     
-
-
-
-
-
-
-    
     var aerodroDest = linha[4].substring(1,5)
     document.getElementById('aerodroDest').innerHTML = aerodroDest
     
@@ -270,6 +263,11 @@ function enviar() {
         document.getElementById('OutrosDados').innerHTML = ultimaLinha
 
         
+    
+        
+    
+
+
 
 
 
@@ -1133,6 +1131,19 @@ else if ([""].includes(textoMatricula)) {
         coluna.style.display = 'block'
     }
 
+
+    var autonomiaMenu = document.getElementById('textoAutonomiaMenu').value
+        document.getElementById('autonomia').innerHTML = autonomiaMenu
+
+    var nomeComandante = document.getElementById('textoNomeComandante').value
+    var anacComandante = document.getElementById('textoPilotoAnac').value
+        document.getElementById('pilotoEmComando').innerHTML = nomeComandante + ' ' + anacComandante
+
+    var nomeDov = document.getElementById('textoNomeDov').value
+        document.getElementById('nome').innerHTML = nomeDov
+
+    var anacDov = document.getElementById('textoAnac').value
+        document.getElementById('codigoDac').innerHTML = anacDov
 
 }
 
