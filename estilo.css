@@ -927,7 +927,7 @@ textarea#textoMatricula {
     font-size: 16px;
     resize: none;
     outline: none;
-    
+    border-radius: 3px;
 }
 
 
@@ -968,11 +968,11 @@ textarea#textoAutonomiaMenu {
     position: relative;
     top: 25px;
     height: 20px;
-    width: 37px;
+    width: 55px;
     font-size: 16px;
     resize: none;
     outline: none;
-    
+    border-radius: 3px;
 }
 
 /*----  NOME DO PILOTO   ----------------------------------*/
@@ -1015,7 +1015,7 @@ textarea#textoNomeComandante {
     font-size: 16px;
     resize: none;
     outline: none;
-    
+    border-radius: 3px;
 }
 textarea#textoPilotoAnac {
     position: relative;
@@ -1025,7 +1025,7 @@ textarea#textoPilotoAnac {
     font-size: 16px;
     resize: none;
     outline: none;
-    
+    border-radius: 3px;
 }
 
 /*----  NOME DO DOV   ----------------------------------*/
@@ -1068,7 +1068,7 @@ textarea#textoNomeDov {
     font-size: 16px;
     resize: none;
     outline: none;
-    
+    border-radius: 3px;
 }
 textarea#textoAnac {
     position: relative;
@@ -1078,7 +1078,7 @@ textarea#textoAnac {
     font-size: 16px;
     resize: none;
     outline: none;
-    
+    border-radius: 3px;
 }
 
 /*----  IMAGEM DO FORMULÁRIO DO PLANO   ----------------------------------*/
