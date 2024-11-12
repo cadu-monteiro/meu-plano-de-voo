@@ -18,6 +18,10 @@ h2 {
     color: white;
 }
 
+textarea {
+    text-transform: uppercase;
+}
+
 #abaColaInfoPlan {
     margin-top: 0px;
     margin: 10px;
