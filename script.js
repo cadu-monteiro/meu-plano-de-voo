@@ -969,7 +969,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
-    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('corDoAbrigo').innerHTML = "LARANJA";
     document.getElementById('botaoC2').style.display = 'none'
 
 
@@ -990,7 +990,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
-    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('corDoAbrigo').innerHTML = "LARANJA";
     document.getElementById('botaoC2').style.display = 'none'
 
 
@@ -1013,7 +1013,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
-    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('corDoAbrigo').innerHTML = "LARANJA";
     document.getElementById('botaoC2').style.display = 'none'
 
 
@@ -1040,7 +1040,7 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
-    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('corDoAbrigo').innerHTML = "LARANJA";
     document.getElementById('botaoC2').style.display = 'none'
 
 
@@ -1063,7 +1063,7 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
-    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('corDoAbrigo').innerHTML = "LARANJA";
     document.getElementById('botaoC2').style.display = 'none'
 
 
@@ -1090,7 +1090,7 @@ else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "8";
     document.getElementById('capacidade').innerHTML = "400";
-    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('corDoAbrigo').innerHTML = "LARANJA";
     document.getElementById('botaoC2').style.display = 'none'
 
 
