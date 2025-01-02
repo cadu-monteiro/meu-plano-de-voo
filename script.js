@@ -293,6 +293,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
 
         document.getElementById('botaoU2').style.display = 'block'
@@ -316,6 +317,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -338,6 +340,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -360,6 +363,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -382,6 +386,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -413,6 +418,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
     
     
         document.getElementById('botaoU2').style.display = 'block'
@@ -436,6 +442,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -458,6 +465,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -480,6 +488,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -502,6 +511,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -524,6 +534,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -545,6 +556,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -566,6 +578,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -587,6 +600,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
         
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -608,6 +622,7 @@ function enviar() {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
         
         document.getElementById('botaoU2').style.display = 'block'
         document.getElementById('botaoV2').style.display = 'block'
@@ -634,6 +649,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -657,6 +673,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -679,6 +696,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -701,6 +719,7 @@ else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -730,6 +749,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -753,6 +773,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -775,6 +796,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -797,6 +819,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -818,6 +841,7 @@ else if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
     
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -843,6 +867,7 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -866,6 +891,7 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -888,6 +914,7 @@ else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
@@ -915,6 +942,7 @@ else if (["PR-AJY","PR-AJZ"].includes(textoMatricula)) {
     document.getElementById('numero2').innerHTML = "";
     document.getElementById('capacidade').innerHTML = "";
     document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -941,7 +969,8 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
-
+    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('botaoC2').style.display = 'none'
 
 
     document.getElementById('botaoU2').style.display = 'block'
@@ -954,7 +983,6 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
     
-    document.getElementById('botaoC2').style.display = 'block'
 
 }else if (["PR-AIV"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE GREEN AND YELLOW";
@@ -962,6 +990,8 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
+    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('botaoC2').style.display = 'none'
 
 
 
@@ -975,7 +1005,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
     
-    document.getElementById('botaoC2').style.display = 'block'
+    
 
 }else if (["PR-AIW","PR-AIZ"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
@@ -983,6 +1013,8 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
+    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('botaoC2').style.display = 'none'
 
 
 
@@ -996,7 +1028,7 @@ else if (["PR-AIU"].includes(textoMatricula)) {
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
     
-    document.getElementById('botaoC2').style.display = 'block'
+    
 
 }
 
@@ -1008,6 +1040,8 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
+    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('botaoC2').style.display = 'none'
 
 
 
@@ -1021,7 +1055,7 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
     
-    document.getElementById('botaoC2').style.display = 'block'
+    
 
 }else if (["PR-ANV"].includes(textoMatricula)) {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND PINK";
@@ -1029,6 +1063,8 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
     document.getElementById('capacidade').innerHTML = "300";
+    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('botaoC2').style.display = 'none'
 
 
 
@@ -1042,7 +1078,7 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
     
-    document.getElementById('botaoC2').style.display = 'block'
+    
 
 }
 
@@ -1054,6 +1090,8 @@ else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "8";
     document.getElementById('capacidade').innerHTML = "400";
+    document.getElementById('corDoAbrigo').innerHTML = "Laranja";
+    document.getElementById('botaoC2').style.display = 'none'
 
 
 
@@ -1067,7 +1105,7 @@ else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
     
-    document.getElementById('botaoC2').style.display = 'block'
+    
 
 }
 
@@ -1101,6 +1139,7 @@ else if ([""].includes(textoMatricula)) {
         document.getElementById('numero2').innerHTML = "";
         document.getElementById('capacidade').innerHTML = "";
         document.getElementById('autonomia').innerHTML = "";
+        document.getElementById('corDoAbrigo').innerHTML = "";
 
 
         document.getElementById('botaoU2').style.display = 'none'

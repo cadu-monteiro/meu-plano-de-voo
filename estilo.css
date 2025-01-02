@@ -1411,6 +1411,24 @@ img#assinatura {
     top: 943,3px;
     left: 81px;
 }
+#corDoAbrigo {
+    position: absolute;
+    top: 955px;
+    left: 303px;
+    resize: none;
+    height: 19px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 12.5px;
+    line-height: 1.4;
+    text-indent: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    scrollbar-width: none;
+    outline: none;
+    border: none;
+}
 #numero2 {
     position: absolute;
     top: 958px;
