@@ -46,7 +46,6 @@ button#botaoFechar {
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
-    cursor: pointer;
 }
 
 button#botaoFechar:hover {
@@ -115,7 +114,6 @@ button#botaoFecharSobre {
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
-    cursor: pointer;
 }
 
 button#botaoFecharSobre:hover {
@@ -208,7 +206,6 @@ button#botaoFecharCadastroMatricula {
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
-    cursor: pointer;
 }
 
 button#botaoFecharCadastroMatricula:hover {
@@ -248,7 +245,6 @@ button#botaoCadastroMatricula {
     height: 30px;
     width: 75px;
     margin-right: 20px;
-    cursor: pointer;
     font-size: 16px;
 }
 
@@ -311,7 +307,6 @@ button#botaoFecharNaoPossuiMatricula {
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
-    cursor: pointer;
 }
 
 button#botaoFecharNaoPossuiMatricula:hover {
@@ -351,7 +346,6 @@ button#botaoNaoPossuiMatricula {
     height: 30px;
     width: 75px;
     margin-right: 20px;
-    cursor: pointer;
     font-size: 16px;
 }
 
@@ -411,7 +405,6 @@ button#botaoFecharPrecisaDe6Linhas {
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
-    cursor: pointer;
 }
 
 button#botaoFecharPrecisaDe6Linhas:hover {
@@ -451,7 +444,6 @@ button#botaoPrecisaDe6Linhas {
     height: 30px;
     width: 75px;
     margin-right: 20px;
-    cursor: pointer;
     font-size: 16px;
 }
 
@@ -520,7 +512,6 @@ button#botaoSim {
     height: 30px;
     width: 75px;
     margin-right: 20px;
-    cursor: pointer;
     font-size: 16px;
 }
 
@@ -535,7 +526,6 @@ button#botaoNao {
     height: 30px;
     width: 75px;
     margin-left: 20px;
-    cursor: pointer;
     font-size: 16px;
 }
 button#botaoNao:hover {
@@ -568,7 +558,6 @@ button#botaoFecharConfirmacao {
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
-    cursor: pointer;
 }
 
 button#botaoFecharConfirmacao:hover {
@@ -597,7 +586,7 @@ button#botaoFecharConfirmacao:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(2, 75, 153);
+    background-color: rgb(1, 68, 139);
     height: 600px;
     width: 649px;
     border-radius: 4px;
@@ -665,7 +654,6 @@ button#enviar {
     background-color: rgb(2, 75, 153);
     border-radius: 3px;
     color: white;
-    cursor: pointer;
     border: 2.1px solid rgb(2, 75, 153);
 }
 button#enviar:hover {
@@ -697,7 +685,6 @@ button#botaoMenu {
     padding-bottom: 3px;
     padding-left: 7.5px;
     vertical-align: middle;
-    cursor: pointer;
 }
 
 button#botaoMenu:hover {
@@ -749,7 +736,6 @@ button#imprimir {
     background-color: rgb(2, 75, 153);
     border-radius: 3px;
     color: white;
-    cursor: pointer;
     border: 2.1px solid rgb(2, 75, 153);
     z-index: 1;
     font-size: 28px;
@@ -816,7 +802,6 @@ button#limpar {
     padding-left: 7.5px;
     padding-top: 3px;
     vertical-align: middle;
-    cursor: pointer;
 }
 button#limpar:hover {
     background-color: rgb(246, 246, 246);
@@ -852,7 +837,7 @@ button#limpar:hover {
 /*----  ASSINATURA DIGITAL   ----------------------------------*/
 #textoAssinatura {
     position: absolute;
-    top: -20px;
+    top: -25px;
     left: 25px;
     padding: 5px;
     padding-left: 10px;
@@ -864,6 +849,7 @@ button#limpar:hover {
     border-radius: 3px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    font-size: 16px;
 }
 
 .boxAssinatura {
@@ -877,7 +863,7 @@ button#limpar:hover {
 .janelaInternaAssinatura {
     border: 1px solid gray;
     margin-left: 25px;
-    height: 80px;
+    height: 65px;
     width: 290px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -885,14 +871,14 @@ button#limpar:hover {
 
 input#inputImagem {
     position: relative;
-    margin-top: 37px;
+    margin-top: 25px;
     font-size: 12px;
 }
 
 /*----  MATRÍCULA DA AERONAVE   ----------------------------------*/
 #infoMatricula {
     position: absolute;
-    top: -20px;
+    top: -23px;
     left: 25px;
     padding: 5px;
     padding-left: 10px;
@@ -904,11 +890,12 @@ input#inputImagem {
     border-radius: 3px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    font-size: 16px;
 }
 
 .matricula {
     position: absolute;
-    top: 285px;
+    top: 283px;
     left: 1px;
     padding-top: 15px;
     border-radius: 8px;
@@ -917,7 +904,7 @@ input#inputImagem {
 .janelaInternaMatricula {
     border: 1px solid gray;
     margin-left: 25px;
-    height: 70px;
+    height: 57px;
     width: 130px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -925,20 +912,20 @@ input#inputImagem {
 
 textarea#textoMatricula {
     position: relative;
-    top: 25px;
+    top: 14px;
     height: 20px;
     width: 80px;
     font-size: 16px;
     resize: none;
     outline: none;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 
 /*----  AUTONOMIA   ----------------------------------*/
 .autonomiaMenu {
     position: absolute;
-    top: 285px;
+    top: 280px;
     left: 150px;
     padding-top: 15px;
     width: 220px;
@@ -958,11 +945,12 @@ textarea#textoMatricula {
     border-radius: 3px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    font-size: 16px;
 }
 .janelaInternaAutonomiaMenu {
     border: 1px solid gray;
     margin-left: 25px;
-    height: 70px;
+    height: 60px;
     width: 130px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -970,26 +958,26 @@ textarea#textoMatricula {
 
 textarea#textoAutonomiaMenu {
     position: relative;
-    top: 25px;
+    top: 17px;
     height: 20px;
     width: 55px;
     font-size: 16px;
     resize: none;
     outline: none;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 /*----  NOME DO PILOTO   ----------------------------------*/
 .nomeComandante {
     position: absolute;
-    top: 402px;
+    top: 380px;
     left: 1px;
     padding-top: 15px;
     border-radius: 8px;
 }
 #infoNomeComandante {
     position: absolute;
-    top: -28px;
+    top: -23px;
     left: 25px;
     padding: 5px;
     padding-left: 10px;
@@ -1001,11 +989,12 @@ textarea#textoAutonomiaMenu {
     border-radius: 3px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    font-size: 16px;
 }
 .janelaNomeComandante {
     border: 1px solid gray;
     margin-left: 25px;
-    height: 70px;
+    height: 90px;
     width: 280px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -1013,36 +1002,38 @@ textarea#textoAutonomiaMenu {
 
 textarea#textoNomeComandante {
     position: relative;
-    top: 22px;
+    top: 17px;
     height: 20px;
-    width: 194px;
+    width: 180px;
     font-size: 16px;
     resize: none;
     outline: none;
-    border-radius: 3px;
+    border-radius: 2px;
+    padding-left: 5px;
 }
 textarea#textoPilotoAnac {
     position: relative;
-    top: 22px;
+    top: 17px;
     height: 20px;
     width: 62px;
     font-size: 16px;
     resize: none;
     outline: none;
-    border-radius: 3px;
+    border-radius: 2px;
+    padding-left: 5px;
 }
 
 /*----  NOME DO DOV   ----------------------------------*/
 .nomeDov {
     position: absolute;
-    top: 402px;
+    top: 380px;
     left: 300px;
     padding-top: 15px;
     border-radius: 8px;
 }
 #infoNomeDov {
     position: absolute;
-    top: -28px;
+    top: -24px;
     left: 25px;
     padding: 5px;
     padding-left: 10px;
@@ -1054,11 +1045,12 @@ textarea#textoPilotoAnac {
     border-radius: 3px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    font-size: 16px;
 }
 .janelaNomeDov {
     border: 1px solid gray;
     margin-left: 25px;
-    height: 70px;
+    height: 90px;
     width: 290px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -1066,23 +1058,37 @@ textarea#textoPilotoAnac {
 
 textarea#textoNomeDov {
     position: relative;
-    top: 22px;
+    top: 17px;
     height: 20px;
-    width: 203px;
+    width: 180px;
     font-size: 16px;
     resize: none;
     outline: none;
-    border-radius: 3px;
+    border-radius: 2px;
+    padding-left: 5px;
 }
 textarea#textoAnac {
     position: relative;
-    top: 22px;
+    top: 17px;
     height: 20px;
     width: 62px;
     font-size: 16px;
     resize: none;
     outline: none;
-    border-radius: 3px;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+textarea#contatoDov {
+    position: relative;
+    top: 20px;
+    left: -38px;
+    height: 20px;
+    width: 180px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    border-radius: 2px;
+    padding-left: 5px;
 }
 
 /*----  IMAGEM DO FORMULÁRIO DO PLANO   ----------------------------------*/
@@ -1551,11 +1557,11 @@ img#assinatura {
 #nome {
     position: absolute;
     top: 1180px;
-    left: 45px;
+    left: 35px;
     letter-spacing: 1px;
     resize: none;
     height: 17px;
-    width: 263px;
+    width: 285px;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.2;
     text-indent: 4px;

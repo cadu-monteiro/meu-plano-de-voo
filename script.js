@@ -1179,10 +1179,13 @@ else if ([""].includes(textoMatricula)) {
         document.getElementById('pilotoEmComando').innerHTML = nomeComandante + ' ' + anacComandante
 
     var nomeDov = document.getElementById('textoNomeDov').value
-        document.getElementById('nome').innerHTML = nomeDov
+    var contato = document.getElementById('contatoDov').value
+        document.getElementById('nome').innerHTML = nomeDov + contato
 
     var anacDov = document.getElementById('textoAnac').value
         document.getElementById('codigoDac').innerHTML = anacDov
+
+    
 
 }
 
