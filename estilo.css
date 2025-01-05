@@ -848,10 +848,12 @@ button#limpar:hover {
 /*----  ASSINATURA DIGITAL   ----------------------------------*/
 #textoAssinatura {
     position: absolute;
-    top: -25px;
+    top: -27px;
     left: 25px;
     padding: 5px;
     padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
     text-align: left;
     color: rgb(0, 0, 0);
     width: 277px;
@@ -860,7 +862,7 @@ button#limpar:hover {
     border-radius: 3px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .boxAssinatura {
@@ -923,7 +925,7 @@ input#inputImagem {
 
 textarea#textoMatricula {
     position: relative;
-    top: 14px;
+    top: 16px;
     height: 20px;
     width: 80px;
     font-size: 16px;
@@ -969,7 +971,7 @@ textarea#textoMatricula {
 
 textarea#textoAutonomiaMenu {
     position: relative;
-    top: 17px;
+    top: 19px;
     height: 20px;
     width: 55px;
     font-size: 16px;
