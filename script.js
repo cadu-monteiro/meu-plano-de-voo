@@ -131,8 +131,6 @@ function fecharPrecisaDe6Linhas() {
 
 
 
-
-
 document.querySelector('#textoMatricula').addEventListener('input', function() {
     this.value = this.value.toUpperCase()
     var texto = this.value
@@ -147,7 +145,6 @@ document.querySelector('#textoMatricula').addEventListener('input', function() {
 
 
 })
-
 
 
 

@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+.grupoParagrafosPlan{
+    text-transform: uppercase;
+}
+
 h2 {
     position: absolute;
     width: 100vw;
@@ -38,22 +42,23 @@ button#botaoFechar {
     width: 25px;
     padding-top: 1px;
     padding-bottom: 4px;
-    padding-left: 6px;
+    padding-left: 7px;
     margin: 0;
     align-items: center;
     border-radius: 3px;
     border: none;
+    font-size: 14px;
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
 }
 
 button#botaoFechar:hover {
-    background-color: rgb(2, 75, 153);
+    background-color: rgba(255, 74, 74, 0.795);
     color: white;
-    border: 1px solid white;
-    font-size: 11px;
-    padding-left: 6px;
+    border: none;
+    font-size: 14px;
+    padding-left: 7px;
     padding-top: 1px;
 }
 
@@ -111,17 +116,18 @@ button#botaoFecharSobre {
     align-items: center;
     border-radius: 3px;
     border: none;
+    font-size: 14px;
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
 }
 
 button#botaoFecharSobre:hover {
-    background-color: rgb(2, 75, 153);
+    background-color: rgba(255, 74, 74, 0.795);
     color: white;
-    border: 1px solid white;
-    font-size: 11px;
-    padding-left: 6px;
+    border: none;
+    font-size: 14px;
+    padding-left: 5px;
     padding-top: 1px;
 }
 
@@ -203,16 +209,17 @@ button#botaoFecharCadastroMatricula {
     align-items: center;
     border-radius: 3px;
     border: none;
+    font-size: 14px;
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
 }
 
 button#botaoFecharCadastroMatricula:hover {
-    background-color: rgb(2, 75, 153);
+    background-color: rgba(255, 74, 74, 0.795);
     color: white;
-    border: 1px solid white;
-    font-size: 11px;
+    border: none;
+    font-size: 14px;
     padding-left: 6px;
     padding-top: 1px;
 }
@@ -304,16 +311,17 @@ button#botaoFecharNaoPossuiMatricula {
     align-items: center;
     border-radius: 3px;
     border: none;
+    font-size: 14px;
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
 }
 
 button#botaoFecharNaoPossuiMatricula:hover {
-    background-color: rgb(2, 75, 153);
+    background-color: rgba(255, 74, 74, 0.795);
     color: white;
-    border: 1px solid white;
-    font-size: 11px;
+    border: none;
+    font-size: 14px;
     padding-left: 6px;
     padding-top: 1px;
 }
@@ -402,16 +410,17 @@ button#botaoFecharPrecisaDe6Linhas {
     align-items: center;
     border-radius: 3px;
     border: none;
+    font-size: 14px;
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
 }
 
 button#botaoFecharPrecisaDe6Linhas:hover {
-    background-color: rgb(2, 75, 153);
+    background-color: rgba(255, 74, 74, 0.795);
     color: white;
-    border: 1px solid white;
-    font-size: 11px;
+    border: none;
+    font-size: 14px;
     padding-left: 6px;
     padding-top: 1px;
 }
@@ -550,22 +559,23 @@ button#botaoFecharConfirmacao {
     width: 25px;
     padding-top: 2px;
     padding-bottom: 4px;
-    padding-left: 8.1px;
+    padding-left: 6px;
     margin: 0;
     align-items: center;
     border-radius: 3px;
     border: none;
+    font-size: 14px;
     background-color: rgb(255, 255, 255);
     color: rgb(2, 75, 153);
     z-index: 1;
 }
 
 button#botaoFecharConfirmacao:hover {
-    background-color: rgb(2, 75, 153);
+    background-color: rgba(255, 74, 74, 0.795);
     color: white;
-    border: 1px solid white;
-    font-size: 11px;
-    padding-left: 8.1px;
+    border: none;
+    font-size: 14px;
+    padding-left: 6px;
     padding-top: 2.2px;
 }
 
@@ -630,6 +640,7 @@ textarea#caixaTexto {
     text-indent: 0px;
     text-align: left;
     z-index: 1;
+    text-transform: uppercase;
 }
 
 #infoCaixaTexto {
