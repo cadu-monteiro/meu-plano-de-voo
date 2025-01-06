@@ -118,11 +118,11 @@
                     
                     <textarea name="observacoes" id="observacoes" maxlength="60"></textarea>
 
-                    <textarea name="pilotoEmComando" id="pilotoEmComando" maxlength="35"></textarea>
+                    <textarea readonly name="pilotoEmComando" id="pilotoEmComando" maxlength="35"></textarea>
 
-                    <textarea name="nome" id="nome" maxlength="26" placeholder="NOME/ (DDD)99999-9999" ></textarea>
+                    <textarea readonly name="nome" id="nome" maxlength="26" placeholder="NOME/ (DDD)99999-9999" ></textarea>
 
-                    <textarea name="codigoDac" id="codigoDac" maxlength="6"></textarea>
+                    <textarea readonly name="codigoDac" id="codigoDac" maxlength="6"></textarea>
                     
                     <img id="assinatura" style="display: none;" />
                     
@@ -175,9 +175,12 @@
                         <div class="nomeDov">
                             <div class="janelaNomeDov">
                                 <p id="infoNomeDov">DOV</p>
-                                <textarea name="textoNomeDov" id="textoNomeDov" maxlength="9" placeholder="Nome"></textarea>
                                 <textarea name="textoAnac" id="textoAnac" maxlength="6" placeholder="Anac"></textarea>
-                                <textarea name="contato" id="contatoDov" maxlength="17" placeholder="Número para contato">/+55(11)4831-4929</textarea>
+
+                                <div class="campoDov">
+                                    <textarea name="textoNomeDov" id="textoNomeDov" maxlength="9" placeholder="Nome"></textarea>
+                                    <textarea name="contato" id="contatoDov" maxlength="16" placeholder="Número para contato">+55(11)4831-4929</textarea>
+                                </div>
                             </div>
                         </div>
                     </div>

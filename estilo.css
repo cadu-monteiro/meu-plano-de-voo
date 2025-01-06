@@ -1071,7 +1071,8 @@ textarea#textoPilotoAnac {
 
 textarea#textoNomeDov {
     position: relative;
-    top: 17px;
+    top: -12.5px;
+    left: -40px;
     height: 20px;
     width: 180px;
     font-size: 16px;
@@ -1083,6 +1084,7 @@ textarea#textoNomeDov {
 textarea#textoAnac {
     position: relative;
     top: 17px;
+    left: 95px;
     height: 20px;
     width: 62px;
     font-size: 16px;
@@ -1093,8 +1095,8 @@ textarea#textoAnac {
 }
 textarea#contatoDov {
     position: relative;
-    top: 20px;
-    left: -38px;
+    top: -8px;
+    left: -40px;
     height: 20px;
     width: 180px;
     font-size: 16px;
@@ -1570,7 +1572,8 @@ img#assinatura {
 #nome {
     position: absolute;
     top: 1180px;
-    left: 35px;
+    left: 33px;
+    text-align: center;
     letter-spacing: 1px;
     resize: none;
     height: 17px;

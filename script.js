@@ -260,21 +260,17 @@ function enviar() {
         document.getElementById('OutrosDados').innerHTML = ultimaLinha
 
         
-    
-        
-    
 
 
 
 
-
-
-/* -----  INFORMAÇÕES SUPLEMENTARES  ------------------------------------------*/
+/*-----  INFORMAÇÕES SUPLEMENTARES  -------------------------------------------*/
     var textoMatricula = document.getElementById("textoMatricula").value.trim();
+  
     
-/* -----  EQUIPAMENTOS  -------------------------------------------------------*/
 
 
+/*-----  EQUIPAMENTOS  --------------------------------------------------------------------*/
 
 /*-----   A320  ---------------------------------------------------------------*/
     if (["PR-YSQ","PR-YRA","PR-YRB","PR-YRC","PR-YRD","PR-YRE","PR-YRF",
@@ -1124,11 +1120,6 @@ else if ([""].includes(textoMatricula)) {
 
 
 
-
-
-
-
-
      else {
         document.getElementById('corEMarcaDaAeronave').innerHTML = "";
         document.getElementById('pessoasABordo').innerHTML = "";
@@ -1177,7 +1168,13 @@ else if ([""].includes(textoMatricula)) {
 
     var nomeDov = document.getElementById('textoNomeDov').value
     var contato = document.getElementById('contatoDov').value
-        document.getElementById('nome').innerHTML = nomeDov + contato
+        
+
+        if ([""].includes(contato)) {
+            document.getElementById('nome').innerHTML = nomeDov
+        }else {
+            document.getElementById('nome').innerHTML = nomeDov + "/" + contato
+        }
 
     var anacDov = document.getElementById('textoAnac').value
         document.getElementById('codigoDac').innerHTML = anacDov
