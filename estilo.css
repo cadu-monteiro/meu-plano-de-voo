@@ -1071,8 +1071,8 @@ textarea#textoPilotoAnac {
 
 textarea#textoNomeDov {
     position: relative;
-    top: -12.5px;
-    left: -40px;
+    top: 17px;
+    left: -3px;
     height: 20px;
     width: 180px;
     font-size: 16px;
@@ -1084,7 +1084,7 @@ textarea#textoNomeDov {
 textarea#textoAnac {
     position: relative;
     top: 17px;
-    left: 95px;
+    left: -3px;
     height: 20px;
     width: 62px;
     font-size: 16px;
@@ -1095,8 +1095,8 @@ textarea#textoAnac {
 }
 textarea#contatoDov {
     position: relative;
-    top: -8px;
-    left: -40px;
+    top: 18px;
+    left: -41px;
     height: 20px;
     width: 180px;
     font-size: 16px;
