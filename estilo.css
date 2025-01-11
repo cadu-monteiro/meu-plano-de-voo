@@ -1611,3 +1611,743 @@ img#assinatura {
     border: none;
 }
 
+/* Botões Riscos ---------------------------------------------*/
+
+/*Botão U --------------------------*/
+#letraU {
+    position: absolute;
+    top: 816px;
+    left: 598px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+    
+}
+#botaoU1 {
+    position: absolute;
+    top: 826px;
+    left: 598px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoU2 {
+    position: absolute;
+    top: 826px;
+    left: 598px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+
+/*Botão V --------------------------*/
+#letraV {
+    position: absolute;
+    top: 816px;
+    left: 667px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoV1 {
+    position: absolute;
+    top: 827px;
+    left: 665px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoV2 {
+    position: absolute;
+    top: 826px;
+    left: 665.9px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão E --------------------------*/
+#letraE {
+    position: absolute;
+    top: 816px;
+    left: 734px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoE1 {
+    position: absolute;
+    top: 827px;
+    left: 733px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoE2 {
+    position: absolute;
+    top: 826px;
+    left: 733px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão S --------------------------*/
+#letraS {
+    position: absolute;
+    top: 879px;
+    left: 101px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoS1 {
+    position: absolute;
+    top: 890px;
+    left: 100px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoS2 {
+    position: absolute;
+    top: 889px;
+    left: 100px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão P --------------------------*/
+#letraP {
+    position: absolute;
+    top: 879px;
+    left: 169px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoP1 {
+    position: absolute;
+    top: 889px;
+    left: 167px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoP2 {
+    position: absolute;
+    top: 889px;
+    left: 167px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão D --------------------------*/
+#letraD {
+    position: absolute;
+    top: 879px;
+    left: 236px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoD1 {
+    position: absolute;
+    top: 889px;
+    left: 235px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoD2 {
+    position: absolute;
+    top: 889px;
+    left: 235px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão M --------------------------*/
+#letraM {
+    position: absolute;
+    top: 879px;
+    left: 302px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoM1 {
+    position: absolute;
+    top: 889px;
+    left: 303px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoM2 {
+    position: absolute;
+    top: 889px;
+    left: 303px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão J1 --------------------------*/
+#letraJ1 {
+    position: absolute;
+    top: 879px;
+    left: 373px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoJ1 {
+    position: absolute;
+    top: 889px;
+    left: 371px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoJ2 {
+    position: absolute;
+    top: 889px;
+    left: 371px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão J2 --------------------------*/
+#letraJ2 {
+    position: absolute;
+    top: 879px;
+    left: 463px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoJ01 {
+    position: absolute;
+    top: 889px;
+    left: 462px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoJ02 {
+    position: absolute;
+    top: 889px;
+    left: 462px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão L --------------------------*/
+#letraL {
+    position: absolute;
+    top: 879px;
+    left: 531px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoL1 {
+    position: absolute;
+    top: 889px;
+    left: 530px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoL2 {
+    position: absolute;
+    top: 889px;
+    left: 530px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão F --------------------------*/
+#letraF {
+    position: absolute;
+    top: 879px;
+    left: 599px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoF1 {
+    position: absolute;
+    top: 889px;
+    left: 598px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoF2 {
+    position: absolute;
+    top: 889px;
+    left: 598px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão U2 --------------------------*/
+#letraU2 {
+    position: absolute;
+    top: 879px;
+    left: 665.9px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoU01 {
+    position: absolute;
+    top: 889px;
+    left: 665.9px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoU02 {
+    position: absolute;
+    top: 889px;
+    left: 665.9px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão V2 --------------------------*/
+#letraV2 {
+    position: absolute;
+    top: 879px;
+    left: 734px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoV01 {
+    position: absolute;
+    top: 889px;
+    left: 733px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoV02 {
+    position: absolute;
+    top: 889px;
+    left: 733px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão D2 --------------------------*/
+#letraD2 {
+    position: absolute;
+    top: 941px;
+    left: 55px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoD01 {
+    position: absolute;
+    top: 951px;
+    left: 54px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoD02 {
+    position: absolute;
+    top: 951px;
+    left: 54.5px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão C --------------------------*/
+#letraC {
+    position: absolute;
+    top: 941px;
+    left: 258px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoC1 {
+    position: absolute;
+    top: 952.5px;
+    left: 257px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoC2 {
+    position: absolute;
+    top: 952.5px;
+    left: 258px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
+/*Botão N --------------------------*/
+#letraN {
+    position: absolute;
+    top: 1033px;
+    left: 55px;
+    height: 18.5px;
+    width: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#botaoN1 {
+    position: absolute;
+    top: 1044px;
+    left: 55px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#botaoN2 {
+    position: absolute;
+    top: 1044px;
+    left: 55px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    transform: rotate(30deg);
+}
