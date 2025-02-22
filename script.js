@@ -187,26 +187,26 @@ const textarea = document.getElementById('textoMatricula');
 document.getElementById("caixaTexto").addEventListener("paste", function(event) {
     event.preventDefault();
     let pasteData = (event.clipboardData || window.clipboardData).getData('text');
-    pasteData = pasteData.replace(/\s+/g, ' '); // Remove quebras de linha e espaços extras
-    pasteData = pasteData.replace(/-/g, '\n-'); // Insere nova linha antes de cada "-"
+    pasteData = pasteData.replace(/\s+/g, ' ');
+    pasteData = pasteData.replace(/-/g, '\n-');
     
-    // Dividir o texto em linhas
+    
     let lines = pasteData.split('\n');
     
-    // Unir as duas primeiras linhas
+    
     if (lines.length > 2) {
-        lines[0] = lines[0] + lines[1] + lines[2]; // Unir a primeira e a segunda linha
-        lines.splice(1, 2); // Remover a segunda linha que foi unida
+        lines[0] = lines[0] + lines[1] + lines[2];
+        lines.splice(1, 2);
     }
-    // Verificar se existem pelo menos 4 linhas
+    
     if (lines.length > 3) {
-        // Unir a terceira e quarta linha (considerando as linhas já unidas anteriormente)
-        lines[1] = lines[1] + lines[2]; // Unir a terceira e quarta linha
-        lines.splice(2, 1); // Remover a quarta linha que foi unida
+        
+        lines[1] = lines[1] + lines[2];
+        lines.splice(2, 1);
     }
     
     
-    this.value = lines.join('\n'); // Reunir todas as linhas novamente
+    this.value = lines.join('\n');
 });
 
 
