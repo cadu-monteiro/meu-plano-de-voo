@@ -206,7 +206,8 @@ document.getElementById("caixaTexto").addEventListener("paste", function(event) 
     }
     
     
-    this.value = lines.join('\n');
+    this.value = lines.join('\n').trim();
+    
 });
 
 
