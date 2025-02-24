@@ -398,29 +398,6 @@ function item19_A330(){
     document.getElementById('botaoN2').style.display = 'none'
 }
 
-/*-----  INFORMAÇÕES SUPLEMENTARES - ITEM 19 - A350 ---------------------------------------*/
-
-function item19_A350(){
-    document.getElementById('pessoasABordo').innerHTML = "TBN";
-    document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
-    document.getElementById('numero2').innerHTML = "8";
-    document.getElementById('capacidade').innerHTML = "400";
-    document.getElementById('corDoAbrigo').innerHTML = "LARANJA";
-    document.getElementById('botaoC2').style.display = 'none'
-
-
-
-    document.getElementById('botaoU2').style.display = 'block'
-    document.getElementById('botaoV2').style.display = 'block'
-    document.getElementById('botaoP2').style.display = 'block'
-
-    document.getElementById('botaoD2').style.display = 'none'
-    
-    document.getElementById('botaoL2').style.display = 'block'
-    document.getElementById('botaoF2').style.display = 'block'
-    document.getElementById('botaoU02').style.display = 'block'
-    document.getElementById('botaoV02').style.display = 'block'
-}
 
 
 /*-----  CORES DAS AERONAVES  -------------------------------------------------------------*/
@@ -665,14 +642,6 @@ else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
     whiteAndPink()
     item19_A330()
 
-}
-
-
-/*-----   A350  ------------------------------------------------------------*/
-else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
-    whiteAndBlue()
-    item19_A350()
-    
 }
 
 
