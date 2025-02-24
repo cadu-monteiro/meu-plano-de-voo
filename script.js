@@ -186,7 +186,7 @@ const textarea = document.getElementById('textoMatricula');
 
 document.getElementById("caixaTexto").addEventListener("paste", function(event) {
     event.preventDefault();
-    let pasteData = (event.clipboardData || window.clipboardData).getData('text');
+    let pasteData = (event.clipboardData || window.Clipboard).getData('text');
     pasteData = pasteData.replace(/\s+/g, ' ');
     pasteData = pasteData.replace(/-/g, '\n-');
     
@@ -302,7 +302,7 @@ function enviar() {
 
 /*-----  INFORMAÇÕES SUPLEMENTARES - ITEM 19 - ATR / E195 / E295 / A320 / A321 ------------*/
 
-function suplementares(){
+function item19(){
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "";
@@ -313,9 +313,15 @@ function suplementares(){
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
+
+
+
     document.getElementById('botaoP2').style.display = 'block'
     document.getElementById('botaoD2').style.display = 'block'
     document.getElementById('botaoM2').style.display = 'block'
+
+    document.getElementById('botaoJ2').style.display = 'none'
+
     document.getElementById('botaoJ02').style.display = 'block'
     document.getElementById('botaoL2').style.display = 'block'
     document.getElementById('botaoF2').style.display = 'block'
@@ -323,11 +329,45 @@ function suplementares(){
     document.getElementById('botaoV02').style.display = 'block'
     document.getElementById('botaoD02').style.display = 'block'
     document.getElementById('botaoC2').style.display = 'block'
+
+    document.getElementById('botaoN2').style.display = 'none'
+}
+
+function item19_Com_Coletes(){
+    document.getElementById('pessoasABordo').innerHTML = "TBN";
+    document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
+    document.getElementById('numero2').innerHTML = "";
+    document.getElementById('capacidade').innerHTML = "";
+    document.getElementById('autonomia').innerHTML = "";
+    document.getElementById('corDoAbrigo').innerHTML = "";
+
+
+    document.getElementById('botaoU2').style.display = 'block'
+    document.getElementById('botaoV2').style.display = 'block'
+
+    document.getElementById('botaoE2').style.display = 'none'
+    document.getElementById('botaoS2').style.display = 'none'
+
+    document.getElementById('botaoP2').style.display = 'block'
+    document.getElementById('botaoD2').style.display = 'block'
+    document.getElementById('botaoM2').style.display = 'block'
+
+    document.getElementById('botaoJ2').style.display = 'none'
+    document.getElementById('botaoJ02').style.display = 'none'
+
+    document.getElementById('botaoL2').style.display = 'block'
+    document.getElementById('botaoF2').style.display = 'block'
+    document.getElementById('botaoU02').style.display = 'block'
+    document.getElementById('botaoV02').style.display = 'block'
+    document.getElementById('botaoD02').style.display = 'block'
+    document.getElementById('botaoC2').style.display = 'block'
+
+    document.getElementById('botaoN2').style.display = 'none' 
 }
 
 /*-----  INFORMAÇÕES SUPLEMENTARES - ITEM 19 - A330 ---------------------------------------*/
 
-function suplementaresA330(){
+function item19_A330(){
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "6";
@@ -338,17 +378,28 @@ function suplementaresA330(){
 
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
+
+    document.getElementById('botaoE2').style.display = 'none'
+    document.getElementById('botaoS2').style.display = 'none'
+
     document.getElementById('botaoP2').style.display = 'block'
     document.getElementById('botaoD2').style.display = 'block'
+
+    document.getElementById('botaoM2').style.display = 'none'
+    document.getElementById('botaoJ2').style.display = 'none'
+    document.getElementById('botaoJ02').style.display = 'none'
+
     document.getElementById('botaoL2').style.display = 'block'
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
+
+    document.getElementById('botaoN2').style.display = 'none'
 }
 
 /*-----  INFORMAÇÕES SUPLEMENTARES - ITEM 19 - A350 ---------------------------------------*/
 
-function suplementaresA350(){
+function item19_A350(){
     document.getElementById('pessoasABordo').innerHTML = "TBN";
     document.getElementById('observacoes').innerHTML = "FIRST AID KIT";
     document.getElementById('numero2').innerHTML = "8";
@@ -369,101 +420,63 @@ function suplementaresA350(){
 }
 
 
-/*-----  CORES DAS AERONAVES ATR / E195 / E295 / A320 / A321  -----------------------------*/
+/*-----  CORES DAS AERONAVES  -------------------------------------------------------------*/
 
 function whiteAndBlue() {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
-    suplementares()
 }
 
 function whiteAndPink() {
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND PINK";
-    suplementares()
 }
 
 function blackRedAndYellow(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLACK RED AND YELLOW";
-    suplementares()
 }
 
 function yellowBlueAndWhite(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "YELLOW BLUE AND WHITE";
-    suplementares()
 }
 
 function pinkWhiteAndYellow(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "PINK WHITE AND YELLOW";
-    suplementares()
 }
 
 function whiteAndYellow(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND YELLOW";
-    suplementares()
 }
 
 function blueAndRed(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE AND RED";
-    suplementares()
 }
 
 function colorfulBlue(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "COLORFUL BLUE";
-    suplementares()
 }
 
 function blueYellowAndGreen(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE YELLOW AND GREEN";
-    suplementares()
 }
 
 function blueGreenAndYellow(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE GREEN AND YELLOW";
-    suplementares()
 }
 
 function whiteAndGreen(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND GREEN";
-    suplementares()
 }
 
 function blue(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE";
-    suplementares()
 }
 
 function redAndYellow(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "RED AND YELLOW";
-    suplementares()
 }
 
-/*-----  CORES DAS AERONAVES / A330  --------------------------------------------------*/
 
-function whiteAndBlueA330(){
-    document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
-    suplementaresA330()
-}
 
-function whiteAndPinkA330(){
-    document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND PINK";
-    suplementaresA330()
-}
 
-function blueA330(){
-    document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE";
-    suplementaresA330()
-}
-
-function blueGreenAndYellowA330(){
-    document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE GREEN AND YELLOW";
-    suplementaresA330()
-}
-
-/*-----  CORES DAS AERONAVES / A350  --------------------------------------------------*/
-
-function whiteAndBlueA350(){
-    document.getElementById('corEMarcaDaAeronave').innerHTML = "WHITE AND BLUE";
-    suplementaresA350()
-}
 
 /*-----  APAGAR ITEM 19  --------------------------------------------------------------*/
 
@@ -504,15 +517,21 @@ function apagarItem19(){
 if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-AQA",
     "PR-AQE","PR-AQH","PR-AQI","PR-AQJ","PR-AQK","PR-AQL","PR-AQM","PR-AQN","PR-AQO",
     "PR-AQP","PR-AQQ","PR-AQR","PR-AQS","PR-AQT","PR-AQV","PR-AQW","PR-AQZ","PR-ATV",
-    "PR-ATW","PR-YXA","PR-YXB","PR-YXC","PR-YXT","PR-AKG","PR-AKI","PR-AKJ","PR-AKL",
-    "PR-AQB","PR-TKI","PR-TKJ","PR-TKK","PR-TKL","PR-TKM"].includes(textoMatricula)) {
+    "PR-ATW","PR-YXA","PR-YXB","PR-YXC","PR-YXT","PR-AKG"].includes(textoMatricula)) {
     whiteAndBlue()
+    item19()
 
 }else if (["PR-AKF/QC"].includes(textoMatricula)) {
     whiteAndPink()
+    item19()
     
 }else if (["PR-AKO"].includes(textoMatricula)) {
     blueYellowAndGreen()
+    item19()
+    
+}else if (["PR-AKI","PR-AKJ","PR-AKL","PR-AQB","PR-TKI","PR-TKJ","PR-TKK","PR-TKL","PR-TKM"].includes(textoMatricula)) {
+    whiteAndBlue()
+    item19_Com_Coletes()
     
 }
 
@@ -523,24 +542,31 @@ else if (["PR-AUE","PR-AUF","PR-AUH","PR-AUI","PR-AUJ","PR-AUM","PR-AUN","PR-AUP
     "PR-AXX","PR-AXY","PR-AXZ","PR-AYE","PR-AYF","PR-AYG","PR-AYK","PR-AYN","PR-AYU",
     "PR-AYW","PR-AYZ","PR-AXW/QC","PR-AYL/QC"].includes(textoMatricula)) {
     whiteAndBlue()
+    item19()
     
 }else if (["PR-AYI/QC","PR-AYJ/QC","PR-AUO/QC"].includes(textoMatricula)) {
     whiteAndYellow()
+    item19()
     
 }else if (["PR-AUQ"].includes(textoMatricula)) {
     blueAndRed()
+    item19()
     
 }else if (["PR-AXH"].includes(textoMatricula)) {
     colorfulBlue()
+    item19()
     
 }else if (["PR-AYV"].includes(textoMatricula)) {
     blueGreenAndYellow()
+    item19()
     
 }else if (["PR-AYX"].includes(textoMatricula)) {
     whiteAndGreen()
+    item19()
     
 }else if (["PR-AYY"].includes(textoMatricula)) {
     blue()
+    item19()
     
 }
 
@@ -549,15 +575,19 @@ else if (["PR-AUE","PR-AUF","PR-AUH","PR-AUI","PR-AUJ","PR-AUM","PR-AUN","PR-AUP
 else if (["PS-AEB","PS-AEC","PS-AED","PS-AEE","PS-AEG","PS-AEH","PS-AEI","PS-AEJ",
     "PS-AEK","PS-AEL","PS-AEM","PS-AEN","PS-AEP","PS-AEO","PS-AEQ","PS-AER"].includes(textoMatricula)) {
     whiteAndBlue()
+    item19()
 
 }else if (["PR-PJN"].includes(textoMatricula)) {
     colorfulBlue()
+    item19()
 
 }else if (["PS-AEA"].includes(textoMatricula)) {
     whiteAndPink()
+    item19()
     
 }else if (["PS-AEF"].includes(textoMatricula)) {
     blueGreenAndYellow()
+    item19()
     
 }
 
@@ -570,60 +600,74 @@ else if (["PR-YSQ","PR-YRA","PR-YRB","PR-YRC","PR-YRD","PR-YRE","PR-YRF",
     "PR-YYD","PR-YYE","PR-YYF","PR-YYG","PR-YYH","PR-YYI","PR-YYJ","PR-YYL",
     "PR-YYK"].includes(textoMatricula)) {
     whiteAndBlue()
+    item19()
 
 }else if (["PR-YRS"].includes(textoMatricula)) {
     whiteAndPink()
+    item19()
 
 }else if (["PR-YSH"].includes(textoMatricula)) {
     blackRedAndYellow()
+    item19()
 
 }else if (["PR-YSI"].includes(textoMatricula)) {
     yellowBlueAndWhite()
+    item19()
 
 }else if (["PR-YSK"].includes(textoMatricula)) {
     pinkWhiteAndYellow()
+    item19()
 
 }
     
 /*-----   A321  ---------------------------------------------------------------*/
 else if (["PR-YJA","PR-YJB","PR-YJC","PR-YJD"].includes(textoMatricula)) {
     whiteAndBlue()
+    item19()
 
 }else if (["PR-YJE"].includes(textoMatricula)) {
     blueGreenAndYellow()
+    item19()
     
 }else if (["PR-YJF"].includes(textoMatricula)) {
     redAndYellow()
+    item19()
     
 }
 
 
 /*-----   A330 CEO  ------------------------------------------------------------*/
 else if (["PR-AIU"].includes(textoMatricula)) {
-    blueA330()
+    blue()
+    item19_A330()
 
 }else if (["PR-AIV"].includes(textoMatricula)) {
-    blueGreenAndYellowA330()
+    blueGreenAndYellow()
+    item19_A330()
 
 }else if (["PR-AIW","PR-AIZ"].includes(textoMatricula)) {
-    whiteAndBlueA330()
+    whiteAndBlue()
+    item19_A330()
 
 }
 
 
 /*-----   A330 NEO  ------------------------------------------------------------*/
 else if (["PR-ANY","PR-ANZ","PR-ANW","PR-ANX"].includes(textoMatricula)) {
-    whiteAndBlueA330()
+    whiteAndBlue()
+    item19_A330()
     
 }else if (["PR-ANV"].includes(textoMatricula)) { 
-    whiteAndPinkA330()
+    whiteAndPink()
+    item19_A330()
 
 }
 
 
 /*-----   A350  ------------------------------------------------------------*/
 else if (["PR-AOY","PR-AOW"].includes(textoMatricula)) {
-    whiteAndBlueA350()
+    whiteAndBlue()
+    item19_A350()
     
 }
 
