@@ -455,10 +455,6 @@ function colorfulBlue(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "COLORFUL BLUE";
 }
 
-function blueYellowAndGreen(){
-    document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE YELLOW AND GREEN";
-}
-
 function blueGreenAndYellow(){
     document.getElementById('corEMarcaDaAeronave').innerHTML = "BLUE GREEN AND YELLOW";
 }
@@ -527,7 +523,7 @@ if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-AQA",
     item19()
     
 }else if (["PR-AKO"].includes(textoMatricula)) {
-    blueYellowAndGreen()
+    blueGreenAndYellow()
     item19()
     
 }else if (["PR-AKI","PR-AKJ","PR-AKL","PR-AQB","PR-TKI","PR-TKJ","PR-TKK","PR-TKL","PR-TKM"].includes(textoMatricula)) {
