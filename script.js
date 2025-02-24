@@ -384,7 +384,7 @@ function item19_A330(){
     document.getElementById('botaoS2').style.display = 'none'
 
     document.getElementById('botaoP2').style.display = 'block'
-    document.getElementById('botaoD2').style.display = 'none'
+    document.getElementById('botaoD2').style.display = 'block'
 
     document.getElementById('botaoM2').style.display = 'none'
     document.getElementById('botaoJ2').style.display = 'none'
@@ -395,6 +395,7 @@ function item19_A330(){
     document.getElementById('botaoU02').style.display = 'block'
     document.getElementById('botaoV02').style.display = 'block'
 
+    document.getElementById('botaoD02').style.display = 'none'
     document.getElementById('botaoN2').style.display = 'none'
 }
 
