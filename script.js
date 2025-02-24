@@ -314,7 +314,8 @@ function item19(){
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
 
-
+    document.getElementById('botaoE2').style.display = 'none'
+    document.getElementById('botaoS2').style.display = 'none'
 
     document.getElementById('botaoP2').style.display = 'block'
     document.getElementById('botaoD2').style.display = 'block'
