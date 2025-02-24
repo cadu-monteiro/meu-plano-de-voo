@@ -384,7 +384,7 @@ function item19_A330(){
     document.getElementById('botaoS2').style.display = 'none'
 
     document.getElementById('botaoP2').style.display = 'block'
-    document.getElementById('botaoD2').style.display = 'block'
+    document.getElementById('botaoD2').style.display = 'none'
 
     document.getElementById('botaoM2').style.display = 'none'
     document.getElementById('botaoJ2').style.display = 'none'
@@ -413,7 +413,9 @@ function item19_A350(){
     document.getElementById('botaoU2').style.display = 'block'
     document.getElementById('botaoV2').style.display = 'block'
     document.getElementById('botaoP2').style.display = 'block'
-    document.getElementById('botaoD2').style.display = 'block'
+
+    document.getElementById('botaoD2').style.display = 'none'
+    
     document.getElementById('botaoL2').style.display = 'block'
     document.getElementById('botaoF2').style.display = 'block'
     document.getElementById('botaoU02').style.display = 'block'
@@ -526,7 +528,8 @@ if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-AQA",
     blueGreenAndYellow()
     item19()
     
-}else if (["PR-AKI","PR-AKJ","PR-AKL","PR-AQB","PR-TKI","PR-TKJ","PR-TKK","PR-TKL","PR-TKM"].includes(textoMatricula)) {
+}else if (["PR-AKI","PR-AKJ","PR-AKL","PR-AQB","PR-TKI","PR-TKJ","PR-TKK","PR-TKL",
+    "PR-TKM"].includes(textoMatricula)) {
     whiteAndBlue()
     item19_Com_Coletes()
     
@@ -536,13 +539,9 @@ if (["PR-AKA/QC","PR-AKB/QC","PR-AKC/QC","PR-AKD/QC","PR-AKM","PR-AKN","PR-AQA",
 else if (["PR-AUE","PR-AUF","PR-AUH","PR-AUI","PR-AUJ","PR-AUM","PR-AUN","PR-AUP",
     "PR-AXA","PR-AXB","PR-AXC","PR-AXD","PR-AXE","PR-AXF","PR-AXG","PR-AXI","PR-AXJ",
     "PR-AXK","PR-AXL","PR-AXN","PR-AXO","PR-AXP","PR-AXR","PR-AXS","PR-AXT","PR-AXU",
-    "PR-AXX","PR-AXY","PR-AXZ","PR-AYE","PR-AYF","PR-AYG","PR-AYK","PR-AYN","PR-AYU",
-    "PR-AYW","PR-AYZ","PR-AXW/QC","PR-AYL/QC"].includes(textoMatricula)) {
+    "PR-AXX","PR-AXY","PR-AXZ","PR-AYE","PR-AYF","PR-AYG","PR-AYK","PR-AYU",
+    "PR-AYW","PR-AYZ"].includes(textoMatricula)) {
     whiteAndBlue()
-    item19()
-    
-}else if (["PR-AYI/QC","PR-AYJ/QC","PR-AUO/QC"].includes(textoMatricula)) {
-    whiteAndYellow()
     item19()
     
 }else if (["PR-AUQ"].includes(textoMatricula)) {
@@ -564,6 +563,14 @@ else if (["PR-AUE","PR-AUF","PR-AUH","PR-AUI","PR-AUJ","PR-AUM","PR-AUN","PR-AUP
 }else if (["PR-AYY"].includes(textoMatricula)) {
     blue()
     item19()
+    
+}else if (["PR-AXW/QC","PR-AYN/QC","PR-AYL/QC"].includes(textoMatricula)) {
+    whiteAndBlue()
+    item19_Com_Coletes()
+    
+}else if (["PR-AYI/QC","PR-AYJ/QC","PR-AUO/QC"].includes(textoMatricula)) {
+    whiteAndYellow()
+    item19_Com_Coletes()
     
 }
 
